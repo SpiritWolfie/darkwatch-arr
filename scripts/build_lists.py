@@ -39,18 +39,6 @@ else:
 # ================================================================
 # TMDB AUTHENTICATION
 # ================================================================
-#
-# DO NOT put your TMDB token here.
-#
-# GitHub Actions supplies it through:
-#
-#   TMDB_TOKEN
-#
-# which becomes:
-#
-#   TMDB_API_KEY
-#
-# ================================================================
 
 API = os.environ.get(
     "TMDB_API_KEY",
@@ -59,10 +47,7 @@ API = os.environ.get(
 
 
 # ================================================================
-# TITLE ALIASES
-# ================================================================
-#
-# These remove catalog-specific labels that can confuse TMDB.
+# TV TITLE ALIASES
 # ================================================================
 
 ALIASES = {
@@ -109,10 +94,7 @@ ALIASES = {
 
 
 # ================================================================
-# YEAR OVERRIDES
-# ================================================================
-#
-# Used whenever multiple shows have the same title.
+# TV YEAR OVERRIDES
 # ================================================================
 
 YEAR_OVERRIDES = {
@@ -160,12 +142,6 @@ YEAR_OVERRIDES = {
 
 # ================================================================
 # MANUAL TVDB MAPPINGS
-# ================================================================
-#
-# TMDB sometimes has a valid TV series but does not return a
-# TVDB ID through /external_ids.
-#
-# These are used as a fallback.
 # ================================================================
 
 MANUAL_TVDB = {
@@ -293,7 +269,7 @@ def tmdb_get(path, params):
                 "application/json",
 
             "User-Agent":
-                "darkwatch-arr/1.2",
+                "darkwatch-arr/1.3",
         }
     )
 
@@ -306,13 +282,14 @@ def tmdb_get(path, params):
 
 
 # ================================================================
-# RESULT SELECTION
+# GENERIC RESULT SELECTION
 # ================================================================
 
 def choose_result(
     results,
     title,
-    year
+    year,
+    media_type
 ):
 
     if not results:
@@ -324,23 +301,37 @@ def choose_result(
 
     for result in results:
 
-        result_title = result.get(
-            "name",
-            ""
-        )
+        if media_type == "movie":
 
-        first_air = result.get(
-            "first_air_date",
-            ""
-        )
+            result_title = result.get(
+                "title",
+                ""
+            )
+
+            date_value = result.get(
+                "release_date",
+                ""
+            )
+
+        else:
+
+            result_title = result.get(
+                "name",
+                ""
+            )
+
+            date_value = result.get(
+                "first_air_date",
+                ""
+            )
 
         result_year = None
 
-        if first_air:
+        if date_value:
 
             try:
                 result_year = int(
-                    first_air[:4]
+                    date_value[:4]
                 )
 
             except ValueError:
@@ -348,19 +339,19 @@ def choose_result(
 
         score = 0
 
-        # Exact title match
+        # Exact title match.
         if normalize(
             result_title
         ) == wanted:
 
             score += 100
 
-        # Exact year match
+        # Exact year match.
         if year and result_year == year:
 
             score += 100
 
-        # Partial title match
+        # Partial title match.
         normalized_result = normalize(
             result_title
         )
@@ -373,7 +364,7 @@ def choose_result(
 
             score += 25
 
-        # Prefer results with a known air date.
+        # Prefer dated results.
         if result_year:
 
             score += 5
@@ -400,10 +391,167 @@ def choose_result(
 
 
 # ================================================================
+# RESOLVE MOVIE
+# ================================================================
+
+def resolve_movie(item):
+
+    original_title = item["title"]
+
+    year = extract_year(
+        original_title
+    )
+
+    # Remove year from movie search.
+    search_title = re.sub(
+        r"\s*\((?:19|20)\d{2}\)\s*$",
+        "",
+        original_title
+    ).strip()
+
+    key = (
+        f"movie|"
+        f"{original_title}|"
+        f"{year or ''}"
+    )
+
+    if key in cache:
+
+        return cache[key]
+
+
+    params = {
+
+        "query":
+            search_title,
+
+        "include_adult":
+            "false",
+
+        "language":
+            "en-US",
+
+        "page":
+            1,
+    }
+
+    if year:
+
+        params["year"] = year
+
+
+    data = tmdb_get(
+        "search/movie",
+        params
+    )
+
+    results = data.get(
+        "results",
+        []
+    )
+
+
+    result = choose_result(
+        results,
+        search_title,
+        year,
+        "movie"
+    )
+
+
+    # Retry without year if necessary.
+    if not result and year:
+
+        fallback = tmdb_get(
+
+            "search/movie",
+
+            {
+                "query":
+                    search_title,
+
+                "include_adult":
+                    "false",
+
+                "language":
+                    "en-US",
+
+                "page":
+                    1,
+            }
+        )
+
+        result = choose_result(
+            fallback.get(
+                "results",
+                []
+            ),
+            search_title,
+            year,
+            "movie"
+        )
+
+
+    if not result:
+
+        return None
+
+
+    tmdb_id = result.get(
+        "id"
+    )
+
+    if not tmdb_id:
+
+        return None
+
+
+    external = tmdb_get(
+        f"movie/{tmdb_id}/external_ids",
+        {}
+    )
+
+
+    obj = {
+
+        "tmdbId":
+            tmdb_id,
+
+        "title":
+            result.get(
+                "title",
+                search_title
+            ),
+
+        "year":
+            (
+                result.get(
+                    "release_date",
+                    ""
+                )
+            )[:4],
+
+        "imdbId":
+            external.get(
+                "imdb_id"
+            ),
+    }
+
+
+    cache[key] = obj
+
+    time.sleep(
+        0.12
+    )
+
+    return obj
+
+
+# ================================================================
 # RESOLVE TV SHOW
 # ================================================================
 
-def resolve(item):
+def resolve_tv(item):
 
     original_title = item["title"]
 
@@ -426,15 +574,13 @@ def resolve(item):
 
 
     # ------------------------------------------------------------
-    # USE CACHE IF AVAILABLE
+    # CACHE
     # ------------------------------------------------------------
 
     if key in cache:
 
         cached = cache[key]
 
-        # If this was previously cached without a TVDB ID,
-        # add our verified manual mapping.
         if (
             cached
             and
@@ -457,7 +603,7 @@ def resolve(item):
 
 
     # ------------------------------------------------------------
-    # SEARCH TMDB
+    # TMDB SEARCH
     # ------------------------------------------------------------
 
     params = {
@@ -496,17 +642,18 @@ def resolve(item):
     result = choose_result(
         results,
         search_title,
-        year
+        year,
+        "tv"
     )
 
 
     # ------------------------------------------------------------
-    # FALLBACK SEARCH WITHOUT YEAR
+    # FALLBACK WITHOUT YEAR
     # ------------------------------------------------------------
 
     if not result and year:
 
-        fallback_data = tmdb_get(
+        fallback = tmdb_get(
 
             "search/tv",
 
@@ -527,14 +674,16 @@ def resolve(item):
 
         result = choose_result(
 
-            fallback_data.get(
+            fallback.get(
                 "results",
                 []
             ),
 
             search_title,
 
-            year
+            year,
+
+            "tv"
         )
 
 
@@ -553,7 +702,7 @@ def resolve(item):
 
 
     # ------------------------------------------------------------
-    # GET EXTERNAL IDS
+    # EXTERNAL IDS
     # ------------------------------------------------------------
 
     external = tmdb_get(
@@ -563,10 +712,6 @@ def resolve(item):
         {}
     )
 
-
-    # ------------------------------------------------------------
-    # MANUAL TVDB FALLBACK
-    # ------------------------------------------------------------
 
     manual_tvdb = MANUAL_TVDB.get(
         original_title
@@ -578,10 +723,6 @@ def resolve(item):
         or manual_tvdb
     )
 
-
-    # ------------------------------------------------------------
-    # BUILD RESULT
-    # ------------------------------------------------------------
 
     obj = {
 
@@ -612,18 +753,11 @@ def resolve(item):
     }
 
 
-    # ------------------------------------------------------------
-    # SAVE CACHE
-    # ------------------------------------------------------------
-
     cache[key] = obj
 
-
-    # Be polite to TMDB.
     time.sleep(
         0.12
     )
-
 
     return obj
 
@@ -639,7 +773,7 @@ movies = DATA.get(
 
 shows = DATA.get(
     "shows",
-    [] 
+    []
 )
 
 
@@ -670,7 +804,7 @@ if not shows:
 
 
 # ================================================================
-# BUILD FEEDS
+# BUILD MOVIE FEED
 # ================================================================
 
 movie_feed = []
@@ -680,19 +814,72 @@ tv_feed = []
 failures = []
 
 
-for item in movies + shows:
+for item in movies:
 
     try:
 
-        result = resolve(
+        result = resolve_movie(
             item
         )
 
     except Exception as exc:
 
         raise SystemExit(
-            f"Resolution failed for "
-            f"{item['title']}: {exc}"
+            f"Movie resolution failed "
+            f"for {item['title']}: "
+            f"{exc}"
+        )
+
+
+    if not result:
+
+        failures.append(
+            item
+        )
+
+        continue
+
+
+    if result.get(
+        "tmdbId"
+    ):
+
+        movie_feed.append(
+            {
+                "Id":
+                    int(
+                        result[
+                            "tmdbId"
+                        ]
+                    )
+            }
+        )
+
+    else:
+
+        failures.append(
+            item
+        )
+
+
+# ================================================================
+# BUILD TV FEED
+# ================================================================
+
+for item in shows:
+
+    try:
+
+        result = resolve_tv(
+            item
+        )
+
+    except Exception as exc:
+
+        raise SystemExit(
+            f"TV resolution failed "
+            f"for {item['title']}: "
+            f"{exc}"
         )
 
 
@@ -716,82 +903,58 @@ for item in movies + shows:
         continue
 
 
-    # ------------------------------------------------------------
-    # MOVIE
-    # ------------------------------------------------------------
+    if result.get(
+        "tvdbId"
+    ):
 
-    if item["medium"] == "movie":
+        row = {
 
-        movie_feed.append(
-            {
-                "Id":
-                    int(
-                        result[
-                            "tmdbId"
-                        ]
-                    )
-            }
+            "TvdbId":
+                int(
+                    result[
+                        "tvdbId"
+                    ]
+                ),
+
+            "Title":
+                result.get(
+                    "title",
+                    item["title"]
+                ),
+
+            "TmdbId":
+                int(
+                    result[
+                        "tmdbId"
+                    ]
+                ),
+        }
+
+
+        if result.get(
+            "imdbId"
+        ):
+
+            row["ImdbId"] = (
+                result[
+                    "imdbId"
+                ]
+            )
+
+
+        tv_feed.append(
+            row
         )
-
-
-    # ------------------------------------------------------------
-    # TV
-    # ------------------------------------------------------------
 
     else:
 
-        if result.get(
-            "tvdbId"
-        ):
-
-            row = {
-
-                "TvdbId":
-                    int(
-                        result[
-                            "tvdbId"
-                        ]
-                    ),
-
-                "Title":
-                    result.get(
-                        "title",
-                        item["title"]
-                    ),
-
-                "TmdbId":
-                    int(
-                        result[
-                            "tmdbId"
-                        ]
-                    ),
-            }
-
-
-            if result.get(
-                "imdbId"
-            ):
-
-                row["ImdbId"] = (
-                    result[
-                        "imdbId"
-                    ]
-                )
-
-
-            tv_feed.append(
-                row
-            )
-
-        else:
-
-            failures.append(
-                item
-            )
+        failures.append(
+            item
+        )
 
 
 # ================================================================
-# REMOVE DUPLICATES
+# DEDUPLICATION
 # ================================================================
 
 def dedupe(
@@ -895,8 +1058,7 @@ tv_feed = dedupe(
             "unresolved":
                 [
                     item["title"]
-                    for item
-                    in failures
+                    for item in failures
                 ],
         },
 
@@ -926,7 +1088,7 @@ CACHE.write_text(
 
 
 # ================================================================
-# OUTPUT
+# FINAL OUTPUT
 # ================================================================
 
 print(
