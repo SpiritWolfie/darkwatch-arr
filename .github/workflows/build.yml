@@ -1,23 +1,33 @@
 name: Build Arr feeds
+
 on:
   push:
-    paths: ['data/**','scripts/**']
+    paths:
+      - 'data/**'
+      - 'scripts/**'
   schedule:
     - cron: '17 4 * * 1'
   workflow_dispatch:
+
 permissions:
   contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
-        with: {python-version: '3.12'}
+        with:
+          python-version: '3.12'
+
       - name: Build feeds
         env:
-          TMDB_API_KEY: ${{ secrets.secrets.TMDB_TOKEN }}
+          TMDB_API_KEY: ${{ secrets.TMDB_TOKEN }}
         run: python scripts/build_lists.py
+
       - name: Commit generated feeds
         run: |
           git config user.name 'github-actions[bot]'
