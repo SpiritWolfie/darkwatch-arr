@@ -9,10 +9,16 @@ import urllib.parse
 import urllib.request
 
 
+# ================================================================
+# DARKWATCH ARR FEED BUILDER
+# ================================================================
+
 ROOT = Path(__file__).resolve().parents[1]
 
 DATA = json.loads(
-    (ROOT / "data" / "catalog.json").read_text(encoding="utf-8")
+    (ROOT / "data" / "catalog.json").read_text(
+        encoding="utf-8"
+    )
 )
 
 OUT = ROOT / "feeds"
@@ -21,70 +27,204 @@ OUT.mkdir(exist_ok=True)
 CACHE = ROOT / "data" / "tmdb_cache.json"
 
 if CACHE.exists():
-    cache = json.loads(CACHE.read_text(encoding="utf-8"))
+    cache = json.loads(
+        CACHE.read_text(
+            encoding="utf-8"
+        )
+    )
 else:
     cache = {}
 
-# GitHub Actions supplies this securely.
-# DO NOT put your TMDB token in this file.
-API = os.environ.get("TMDB_API_KEY", "").strip()
+
+# ================================================================
+# TMDB AUTHENTICATION
+# ================================================================
+#
+# DO NOT put your TMDB token here.
+#
+# GitHub Actions supplies it through:
+#
+#   TMDB_TOKEN
+#
+# which becomes:
+#
+#   TMDB_API_KEY
+#
+# ================================================================
+
+API = os.environ.get(
+    "TMDB_API_KEY",
+    ""
+).strip()
 
 
-# -------------------------------------------------------------------
-# Known titles where the catalog contains extra identifying text.
-# -------------------------------------------------------------------
+# ================================================================
+# TITLE ALIASES
+# ================================================================
+#
+# These remove catalog-specific labels that can confuse TMDB.
+# ================================================================
 
 ALIASES = {
-    "Spawn: The Animated Series": "Spawn",
-    "Dracula (Netflix)": "Dracula",
-    "Lost in Space (2018)": "Lost in Space",
-    "Colony (2016)": "Colony",
-    "Utopia (UK)": "Utopia",
-    "Dark Matter (2015)": "Dark Matter",
-    "The Prisoner (1967)": "The Prisoner",
-    "Hajime no Ippo": "Hajime no Ippo",
-    "The Punisher": "The Punisher",
-    "Top Boy": "Top Boy",
-    "Justice League Unlimited": "Justice League Unlimited",
-    "The Haunting of Hill House": "The Haunting of Hill House",
-    "The Haunting of Bly Manor": "The Haunting of Bly Manor",
+
+    "Spawn: The Animated Series":
+        "Spawn",
+
+    "The Haunting of Bly Manor":
+        "The Haunting of Bly Manor",
+
+    "Dracula (Netflix)":
+        "Dracula",
+
+    "Lost in Space (2018)":
+        "Lost in Space",
+
+    "Colony (2016)":
+        "Colony",
+
+    "Utopia (UK)":
+        "Utopia",
+
+    "The Haunting of Hill House":
+        "The Haunting of Hill House",
+
+    "Dark Matter (2015)":
+        "Dark Matter",
+
+    "The Prisoner (1967)":
+        "The Prisoner",
+
+    "Justice League Unlimited":
+        "Justice League Unlimited",
+
+    "Hajime no Ippo":
+        "Hajime no Ippo",
+
+    "The Punisher":
+        "The Punisher",
+
+    "Top Boy":
+        "Top Boy",
 }
 
 
-# Explicit year information for ambiguous titles.
-# This prevents things like "Dark Matter" or "Dracula"
-# from resolving to the wrong series.
+# ================================================================
+# YEAR OVERRIDES
+# ================================================================
+#
+# Used whenever multiple shows have the same title.
+# ================================================================
+
 YEAR_OVERRIDES = {
-    "Spawn: The Animated Series": 1997,
-    "The Haunting of Bly Manor": 2020,
-    "Dracula (Netflix)": 2020,
-    "Lost in Space (2018)": 2018,
-    "Colony (2016)": 2016,
-    "Utopia (UK)": 2013,
-    "The Haunting of Hill House": 2018,
-    "Dark Matter (2015)": 2015,
-    "The Prisoner (1967)": 1967,
-    "Justice League Unlimited": 2004,
-    "Hajime no Ippo": 2000,
-    "The Punisher": 2017,
-    "Top Boy": 2011,
+
+    "Spawn: The Animated Series":
+        1997,
+
+    "The Haunting of Bly Manor":
+        2020,
+
+    "Dracula (Netflix)":
+        2020,
+
+    "Lost in Space (2018)":
+        2018,
+
+    "Colony (2016)":
+        2016,
+
+    "Utopia (UK)":
+        2013,
+
+    "The Haunting of Hill House":
+        2018,
+
+    "Dark Matter (2015)":
+        2015,
+
+    "The Prisoner (1967)":
+        1967,
+
+    "Justice League Unlimited":
+        2004,
+
+    "Hajime no Ippo":
+        2000,
+
+    "The Punisher":
+        2017,
+
+    "Top Boy":
+        2011,
 }
 
+
+# ================================================================
+# MANUAL TVDB MAPPINGS
+# ================================================================
+#
+# TMDB sometimes has a valid TV series but does not return a
+# TVDB ID through /external_ids.
+#
+# These are used as a fallback.
+# ================================================================
+
+MANUAL_TVDB = {
+
+    "Spawn: The Animated Series":
+        78645,
+
+    "The Haunting of Bly Manor":
+        345246,
+
+    "Dracula (Netflix)":
+        361160,
+
+    "Lost in Space (2018)":
+        343253,
+
+    "Colony (2016)":
+        284210,
+
+    "Utopia (UK)":
+        264991,
+
+    "The Haunting of Hill House":
+        345246,
+
+    "Dark Matter (2015)":
+        292174,
+
+    "The Prisoner (1967)":
+        74805,
+
+    "Justice League Unlimited":
+        76320,
+
+    "Hajime no Ippo":
+        79685,
+
+    "The Punisher":
+        331980,
+
+    "Top Boy":
+        253138,
+}
+
+
+# ================================================================
+# HELPERS
+# ================================================================
 
 def normalize(text):
-    return re.sub(r"[^a-z0-9]+", "", text.lower())
+
+    return re.sub(
+        r"[^a-z0-9]+",
+        "",
+        text.lower()
+    )
 
 
 def clean_title(title):
-    """
-    Turn catalog labels such as:
-
-        Lost in Space (2018)
-        Utopia (UK)
-        Dracula (Netflix)
-
-    into the actual searchable title.
-    """
 
     if title in ALIASES:
         return ALIASES[title]
@@ -92,33 +232,46 @@ def clean_title(title):
     cleaned = re.sub(
         r"\s*\((?:19|20)\d{2}\)\s*$",
         "",
-        title,
+        title
     )
 
     cleaned = re.sub(
         r"\s*\((?:UK|US|Netflix|HBO|BBC|Amazon|Prime)\)\s*$",
         "",
         cleaned,
-        flags=re.IGNORECASE,
+        flags=re.IGNORECASE
     )
 
     return cleaned.strip()
 
 
 def extract_year(title):
-    match = re.search(r"\((19|20)\d{2}\)\s*$", title)
+
+    match = re.search(
+        r"\((19|20)\d{2}\)\s*$",
+        title
+    )
 
     if match:
-        return int(match.group(0)[1:-1])
+        return int(
+            match.group(0)[1:-1]
+        )
 
     return None
 
 
+# ================================================================
+# TMDB REQUEST
+# ================================================================
+
 def tmdb_get(path, params):
+
     if not API:
+
         raise RuntimeError(
             "TMDB_API_KEY is required. "
-            "Make sure the GitHub secret TMDB_TOKEN exists."
+            "Make sure the GitHub secret "
+            "TMDB_TOKEN exists."
         )
 
     url = (
@@ -129,22 +282,38 @@ def tmdb_get(path, params):
     )
 
     request = urllib.request.Request(
+
         url,
+
         headers={
-            "Authorization": f"Bearer {API}",
-            "accept": "application/json",
-            "User-Agent": "darkwatch-arr/1.1",
-        },
+            "Authorization":
+                f"Bearer {API}",
+
+            "accept":
+                "application/json",
+
+            "User-Agent":
+                "darkwatch-arr/1.2",
+        }
     )
 
-    with urllib.request.urlopen(request, timeout=30) as response:
+    with urllib.request.urlopen(
+        request,
+        timeout=30
+    ) as response:
+
         return json.load(response)
 
 
-def choose_result(results, title, year):
-    """
-    Choose the result whose title and year most closely match.
-    """
+# ================================================================
+# RESULT SELECTION
+# ================================================================
+
+def choose_result(
+    results,
+    title,
+    year
+):
 
     if not results:
         return None
@@ -154,144 +323,336 @@ def choose_result(results, title, year):
     candidates = []
 
     for result in results:
-        result_title = result.get("name", "")
-        first_air = result.get("first_air_date", "")
+
+        result_title = result.get(
+            "name",
+            ""
+        )
+
+        first_air = result.get(
+            "first_air_date",
+            ""
+        )
 
         result_year = None
 
         if first_air:
+
             try:
-                result_year = int(first_air[:4])
+                result_year = int(
+                    first_air[:4]
+                )
+
             except ValueError:
                 pass
 
         score = 0
 
-        # Exact title match.
-        if normalize(result_title) == wanted:
+        # Exact title match
+        if normalize(
+            result_title
+        ) == wanted:
+
             score += 100
 
-        # Year match.
+        # Exact year match
         if year and result_year == year:
+
             score += 100
 
-        # Small bonus for partial title similarity.
-        normalized_result = normalize(result_title)
+        # Partial title match
+        normalized_result = normalize(
+            result_title
+        )
 
-        if wanted in normalized_result or normalized_result in wanted:
+        if (
+            wanted in normalized_result
+            or
+            normalized_result in wanted
+        ):
+
             score += 25
 
-        candidates.append((score, result))
+        # Prefer results with a known air date.
+        if result_year:
+
+            score += 5
+
+        candidates.append(
+            (
+                score,
+                result
+            )
+        )
 
     candidates.sort(
-        key=lambda x: (
-            x[0],
-            x[1].get("popularity", 0),
+        key=lambda item: (
+            item[0],
+            item[1].get(
+                "popularity",
+                0
+            )
         ),
-        reverse=True,
+        reverse=True
     )
 
     return candidates[0][1]
 
 
+# ================================================================
+# RESOLVE TV SHOW
+# ================================================================
+
 def resolve(item):
+
     original_title = item["title"]
 
-    search_title = clean_title(original_title)
+    search_title = clean_title(
+        original_title
+    )
 
     year = YEAR_OVERRIDES.get(
         original_title,
-        extract_year(original_title),
+        extract_year(
+            original_title
+        )
     )
 
-    key = f"tv|{original_title}|{year or ''}"
+    key = (
+        f"tv|"
+        f"{original_title}|"
+        f"{year or ''}"
+    )
+
+
+    # ------------------------------------------------------------
+    # USE CACHE IF AVAILABLE
+    # ------------------------------------------------------------
 
     if key in cache:
-        return cache[key]
+
+        cached = cache[key]
+
+        # If this was previously cached without a TVDB ID,
+        # add our verified manual mapping.
+        if (
+            cached
+            and
+            not cached.get("tvdbId")
+        ):
+
+            manual_tvdb = MANUAL_TVDB.get(
+                original_title
+            )
+
+            if manual_tvdb:
+
+                cached["tvdbId"] = (
+                    manual_tvdb
+                )
+
+                cache[key] = cached
+
+        return cached
+
+
+    # ------------------------------------------------------------
+    # SEARCH TMDB
+    # ------------------------------------------------------------
 
     params = {
-        "query": search_title,
-        "include_adult": "false",
-        "language": "en-US",
-        "page": 1,
+
+        "query":
+            search_title,
+
+        "include_adult":
+            "false",
+
+        "language":
+            "en-US",
+
+        "page":
+            1,
     }
 
     if year:
-        params["first_air_date_year"] = year
 
-    data = tmdb_get("search/tv", params)
+        params[
+            "first_air_date_year"
+        ] = year
 
-    results = data.get("results", [])
+
+    data = tmdb_get(
+        "search/tv",
+        params
+    )
+
+    results = data.get(
+        "results",
+        []
+    )
+
 
     result = choose_result(
         results,
         search_title,
-        year,
+        year
     )
 
-    # If the year-restricted search did not work,
-    # try once without the year.
+
+    # ------------------------------------------------------------
+    # FALLBACK SEARCH WITHOUT YEAR
+    # ------------------------------------------------------------
+
     if not result and year:
+
         fallback_data = tmdb_get(
+
             "search/tv",
+
             {
-                "query": search_title,
-                "include_adult": "false",
-                "language": "en-US",
-                "page": 1,
-            },
+                "query":
+                    search_title,
+
+                "include_adult":
+                    "false",
+
+                "language":
+                    "en-US",
+
+                "page":
+                    1,
+            }
         )
 
         result = choose_result(
-            fallback_data.get("results", []),
+
+            fallback_data.get(
+                "results",
+                []
+            ),
+
             search_title,
-            year,
+
+            year
         )
 
+
     if not result:
+
         return None
 
-    tmdb_id = result.get("id")
 
-    if not tmdb_id:
-        return None
-
-    # TMDB exposes TheTVDB and IMDb IDs through this endpoint.
-    external = tmdb_get(
-        f"tv/{tmdb_id}/external_ids",
-        {},
+    tmdb_id = result.get(
+        "id"
     )
 
+    if not tmdb_id:
+
+        return None
+
+
+    # ------------------------------------------------------------
+    # GET EXTERNAL IDS
+    # ------------------------------------------------------------
+
+    external = tmdb_get(
+
+        f"tv/{tmdb_id}/external_ids",
+
+        {}
+    )
+
+
+    # ------------------------------------------------------------
+    # MANUAL TVDB FALLBACK
+    # ------------------------------------------------------------
+
+    manual_tvdb = MANUAL_TVDB.get(
+        original_title
+    )
+
+
+    tvdb_id = (
+        external.get("tvdb_id")
+        or manual_tvdb
+    )
+
+
+    # ------------------------------------------------------------
+    # BUILD RESULT
+    # ------------------------------------------------------------
+
     obj = {
-        "tmdbId": tmdb_id,
-        "title": result.get("name", search_title),
-        "year": (
-            result.get("first_air_date", "")
-        )[:4],
-        "tvdbId": external.get("tvdb_id"),
-        "imdbId": external.get("imdb_id"),
+
+        "tmdbId":
+            tmdb_id,
+
+        "title":
+            result.get(
+                "name",
+                search_title
+            ),
+
+        "year":
+            (
+                result.get(
+                    "first_air_date",
+                    ""
+                )
+            )[:4],
+
+        "tvdbId":
+            tvdb_id,
+
+        "imdbId":
+            external.get(
+                "imdb_id"
+            ),
     }
+
+
+    # ------------------------------------------------------------
+    # SAVE CACHE
+    # ------------------------------------------------------------
 
     cache[key] = obj
 
-    # Be gentle with TMDB's API.
-    time.sleep(0.12)
+
+    # Be polite to TMDB.
+    time.sleep(
+        0.12
+    )
+
 
     return obj
 
 
-# -------------------------------------------------------------------
-# Load catalog
-# -------------------------------------------------------------------
+# ================================================================
+# LOAD CATALOG
+# ================================================================
 
-movies = DATA.get("movies", [])
+movies = DATA.get(
+    "movies",
+    []
+)
 
-shows = DATA.get("shows", [])
+shows = DATA.get(
+    "shows",
+    [] 
+)
+
 
 if not shows:
-    shows = DATA.get("sonarr_shows", [])
+
+    shows = DATA.get(
+        "sonarr_shows",
+        []
+    )
+
 
 if not shows:
+
     shows = []
 
     for category in (
@@ -299,178 +660,294 @@ if not shows:
         "cartoons",
         "live_action_tv",
     ):
+
         shows.extend(
-            DATA.get(category, [])
+            DATA.get(
+                category,
+                []
+            )
         )
 
 
-# -------------------------------------------------------------------
-# Resolve everything
-# -------------------------------------------------------------------
+# ================================================================
+# BUILD FEEDS
+# ================================================================
 
 movie_feed = []
+
 tv_feed = []
+
 failures = []
+
 
 for item in movies + shows:
 
     try:
-        result = resolve(item)
+
+        result = resolve(
+            item
+        )
 
     except Exception as exc:
+
         raise SystemExit(
             f"Resolution failed for "
             f"{item['title']}: {exc}"
         )
 
+
     if not result:
-        failures.append(item)
+
+        failures.append(
+            item
+        )
+
         continue
 
-    if not result.get("tmdbId"):
-        failures.append(item)
+
+    if not result.get(
+        "tmdbId"
+    ):
+
+        failures.append(
+            item
+        )
+
         continue
 
-    # ---------------------------------------------------------------
-    # Movies
-    # ---------------------------------------------------------------
+
+    # ------------------------------------------------------------
+    # MOVIE
+    # ------------------------------------------------------------
 
     if item["medium"] == "movie":
 
         movie_feed.append(
             {
-                "Id": int(result["tmdbId"])
+                "Id":
+                    int(
+                        result[
+                            "tmdbId"
+                        ]
+                    )
             }
         )
 
-    # ---------------------------------------------------------------
+
+    # ------------------------------------------------------------
     # TV
-    # ---------------------------------------------------------------
+    # ------------------------------------------------------------
 
     else:
 
-        if result.get("tvdbId"):
+        if result.get(
+            "tvdbId"
+        ):
 
             row = {
-                "TvdbId": int(result["tvdbId"]),
-                "Title": result.get(
-                    "title",
-                    item["title"],
-                ),
-                "TmdbId": int(result["tmdbId"]),
+
+                "TvdbId":
+                    int(
+                        result[
+                            "tvdbId"
+                        ]
+                    ),
+
+                "Title":
+                    result.get(
+                        "title",
+                        item["title"]
+                    ),
+
+                "TmdbId":
+                    int(
+                        result[
+                            "tmdbId"
+                        ]
+                    ),
             }
 
-            if result.get("imdbId"):
-                row["ImdbId"] = result["imdbId"]
 
-            tv_feed.append(row)
+            if result.get(
+                "imdbId"
+            ):
+
+                row["ImdbId"] = (
+                    result[
+                        "imdbId"
+                    ]
+                )
+
+
+            tv_feed.append(
+                row
+            )
 
         else:
-            failures.append(item)
+
+            failures.append(
+                item
+            )
 
 
-# -------------------------------------------------------------------
-# Remove duplicates
-# -------------------------------------------------------------------
+# ================================================================
+# REMOVE DUPLICATES
+# ================================================================
 
-def dedupe(rows, key):
+def dedupe(
+    rows,
+    key
+):
 
     seen = set()
+
     output = []
 
     for row in rows:
 
-        value = row.get(key)
+        value = row.get(
+            key
+        )
 
         if value in seen:
+
             continue
 
-        seen.add(value)
-        output.append(row)
+        seen.add(
+            value
+        )
+
+        output.append(
+            row
+        )
 
     return output
 
 
 movie_feed = dedupe(
     movie_feed,
-    "Id",
+    "Id"
 )
 
 tv_feed = dedupe(
     tv_feed,
-    "TvdbId",
+    "TvdbId"
 )
 
 
-# -------------------------------------------------------------------
-# Write feeds
-# -------------------------------------------------------------------
+# ================================================================
+# WRITE RADARR FEED
+# ================================================================
 
-(OUT / "radarr.json").write_text(
+(
+    OUT / "radarr.json"
+).write_text(
+
     json.dumps(
         movie_feed,
-        indent=2,
+        indent=2
     )
     + "\n",
-    encoding="utf-8",
+
+    encoding="utf-8"
 )
 
-(OUT / "sonarr.json").write_text(
+
+# ================================================================
+# WRITE SONARR FEED
+# ================================================================
+
+(
+    OUT / "sonarr.json"
+).write_text(
+
     json.dumps(
         tv_feed,
-        indent=2,
+        indent=2
     )
     + "\n",
-    encoding="utf-8",
+
+    encoding="utf-8"
 )
 
 
-# -------------------------------------------------------------------
-# Write status
-# -------------------------------------------------------------------
+# ================================================================
+# WRITE STATUS
+# ================================================================
 
-(OUT / "status.json").write_text(
+(
+    OUT / "status.json"
+).write_text(
+
     json.dumps(
+
         {
-            "movies": len(movie_feed),
-            "shows": len(tv_feed),
-            "unresolved": [
-                item["title"]
-                for item in failures
-            ],
+            "movies":
+                len(
+                    movie_feed
+                ),
+
+            "shows":
+                len(
+                    tv_feed
+                ),
+
+            "unresolved":
+                [
+                    item["title"]
+                    for item
+                    in failures
+                ],
         },
-        indent=2,
+
+        indent=2
     )
     + "\n",
-    encoding="utf-8",
+
+    encoding="utf-8"
 )
 
 
-# -------------------------------------------------------------------
-# Save cache
-# -------------------------------------------------------------------
+# ================================================================
+# SAVE CACHE
+# ================================================================
 
 CACHE.write_text(
+
     json.dumps(
         cache,
         indent=2,
-        sort_keys=True,
+        sort_keys=True
     )
     + "\n",
-    encoding="utf-8",
+
+    encoding="utf-8"
 )
 
+
+# ================================================================
+# OUTPUT
+# ================================================================
 
 print(
-    f"Built {len(movie_feed)} movies and "
+    f"Built "
+    f"{len(movie_feed)} movies "
+    f"and "
     f"{len(tv_feed)} shows; "
-    f"unresolved={len(failures)}"
+    f"unresolved="
+    f"{len(failures)}"
 )
 
+
 if failures:
-    print("Unresolved titles:")
+
+    print(
+        "Unresolved titles:"
+    )
 
     for item in failures:
+
         print(
-            f" - {item['title']}"
+            f" - "
+            f"{item['title']}"
         )
