@@ -42,10 +42,10 @@
     "ImdbId": "tt10011298"
   },
   {
-    "TvdbId": 79076,
+    "TvdbId": 252322,
     "Title": "Hunter x Hunter",
-    "TmdbId": 45952,
-    "ImdbId": "tt0426719"
+    "TmdbId": 46298,
+    "ImdbId": "tt2098220"
   },
   {
     "TvdbId": 262094,
@@ -204,6 +204,12 @@
     "ImdbId": "tt2560140"
   },
   {
+    "TvdbId": 78645,
+    "Title": "Spawn",
+    "TmdbId": 10331,
+    "ImdbId": "tt0118475"
+  },
+  {
     "TvdbId": 78901,
     "Title": "Supernatural",
     "TmdbId": 1622,
@@ -322,6 +328,12 @@
     "Title": "Blood of Zeus",
     "TmdbId": 111111,
     "ImdbId": "tt10009170"
+  },
+  {
+    "TvdbId": 361160,
+    "Title": "Dracula",
+    "TmdbId": 86850,
+    "ImdbId": "tt9139220"
   },
   {
     "TvdbId": 411021,
@@ -456,6 +468,18 @@
     "ImdbId": "tt28618556"
   },
   {
+    "TvdbId": 343253,
+    "Title": "Lost in Space",
+    "TmdbId": 75758,
+    "ImdbId": "tt5232792"
+  },
+  {
+    "TvdbId": 284210,
+    "Title": "Colony",
+    "TmdbId": 62858,
+    "ImdbId": "tt4209256"
+  },
+  {
     "TvdbId": 270633,
     "Title": "True Detective",
     "TmdbId": 46648,
@@ -508,6 +532,12 @@
     "Title": "The I-Land",
     "TmdbId": 90755,
     "ImdbId": "tt9067020"
+  },
+  {
+    "TvdbId": 264991,
+    "Title": "Utopia",
+    "TmdbId": 46511,
+    "ImdbId": "tt2384811"
   },
   {
     "TvdbId": 399731,
@@ -616,6 +646,12 @@
     "Title": "Childhood's End",
     "TmdbId": 63647,
     "ImdbId": "tt4146128"
+  },
+  {
+    "TvdbId": 292174,
+    "Title": "Dark Matter",
+    "TmdbId": 62425,
+    "ImdbId": "tt4159076"
   },
   {
     "TvdbId": 79334,
@@ -760,6 +796,12 @@
     "Title": "The Lazarus Project",
     "TmdbId": 194567,
     "ImdbId": "tt14190592"
+  },
+  {
+    "TvdbId": 74805,
+    "Title": "The Prisoner",
+    "TmdbId": 894,
+    "ImdbId": "tt0061287"
   },
   {
     "TvdbId": 399194,
@@ -1248,6 +1290,12 @@
     "ImdbId": "tt6357658"
   },
   {
+    "TvdbId": 79685,
+    "Title": "Fighting Spirit",
+    "TmdbId": 42705,
+    "ImdbId": "tt0481256"
+  },
+  {
     "TvdbId": 80000,
     "Title": "Kenichi: The Mightiest Disciple",
     "TmdbId": 37585,
@@ -1330,6 +1378,12 @@
     "Title": "Misfits",
     "TmdbId": 31295,
     "ImdbId": "tt1548850"
+  },
+  {
+    "TvdbId": 331980,
+    "Title": "Marvel's The Punisher",
+    "TmdbId": 67178,
+    "ImdbId": "tt5675620"
   },
   {
     "TvdbId": 72218,
@@ -1546,6 +1600,12 @@
     "Title": "Southland",
     "TmdbId": 17611,
     "ImdbId": "tt1299368"
+  },
+  {
+    "TvdbId": 253138,
+    "Title": "Top Boy",
+    "TmdbId": 41889,
+    "ImdbId": "tt1830379"
   },
   {
     "TvdbId": 413215,
