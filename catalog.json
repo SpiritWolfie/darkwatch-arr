@@ -1,0 +1,2527 @@
+{
+  "source_html": "dark_weird_puzzlebox_watchlist.html",
+  "counts": {
+    "movies": 52,
+    "sonarr_shows_total": 307,
+    "anime": 63,
+    "cartoons": 44,
+    "live_action_tv": 200
+  },
+  "movies": [
+    {
+      "title": "9",
+      "medium": "movie",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "The Dark Crystal",
+      "medium": "movie",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Coraline",
+      "medium": "movie",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Watership Down",
+      "medium": "movie",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Hellboy",
+      "medium": "movie",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Pan’s Labyrinth",
+      "medium": "movie",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Nightmare Before Christmas",
+      "medium": "movie",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Secret of NIMH",
+      "medium": "movie",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "A Monster Calls",
+      "medium": "movie",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Hellboy II: The Golden Army",
+      "medium": "movie",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The City of Lost Children",
+      "medium": "movie",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Green Knight",
+      "medium": "movie",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The NeverEnding Story",
+      "medium": "movie",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Van Helsing",
+      "medium": "movie",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Secret of Kells",
+      "medium": "movie",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Akira",
+      "medium": "movie",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "The Menu",
+      "medium": "movie",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "eXistenZ",
+      "medium": "movie",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Pandorum",
+      "medium": "movie",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Empty Man",
+      "medium": "movie",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Annihilation",
+      "medium": "movie",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Arrival",
+      "medium": "movie",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Blade Runner 2049",
+      "medium": "movie",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Cube",
+      "medium": "movie",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Cabin in the Woods",
+      "medium": "movie",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Cell",
+      "medium": "movie",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Triangle",
+      "medium": "movie",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Predestination",
+      "medium": "movie",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Sunshine",
+      "medium": "movie",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Vast of Night",
+      "medium": "movie",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Coherence",
+      "medium": "movie",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Dark City",
+      "medium": "movie",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Snowpiercer",
+      "medium": "movie",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Source Code",
+      "medium": "movie",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Matrix",
+      "medium": "movie",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "District 9",
+      "medium": "movie",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Upgrade",
+      "medium": "movie",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Event Horizon",
+      "medium": "movie",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "A Quiet Place",
+      "medium": "movie",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Ritual",
+      "medium": "movie",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Thing",
+      "medium": "movie",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "ParaNorman",
+      "medium": "movie",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Platform",
+      "medium": "movie",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Descent",
+      "medium": "movie",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Mist",
+      "medium": "movie",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Void",
+      "medium": "movie",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Monster House",
+      "medium": "movie",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Serenity",
+      "medium": "movie",
+      "primary_genre": "Sci-Fi, Cyberpunk & Dystopia",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Blade Runner",
+      "medium": "movie",
+      "primary_genre": "Sci-Fi, Cyberpunk & Dystopia",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Dredd",
+      "medium": "movie",
+      "primary_genre": "Sci-Fi, Cyberpunk & Dystopia",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Spider-Man: Into the Spider-Verse",
+      "medium": "movie",
+      "primary_genre": "Superheroes & Antiheroes",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Incredibles",
+      "medium": "movie",
+      "primary_genre": "Superheroes & Antiheroes",
+      "reddit": false,
+      "seed": false
+    }
+  ],
+  "shows": [
+    {
+      "title": "The Magicians",
+      "medium": "tv",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "The Promised Neverland",
+      "medium": "anime",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "medium": "anime",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "His Dark Materials",
+      "medium": "tv",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Made in Abyss",
+      "medium": "anime",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "The Owl House",
+      "medium": "cartoon",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Dragon's Dogma",
+      "medium": "anime",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Hunter x Hunter",
+      "medium": "anime",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Magi: The Labyrinth of Magic",
+      "medium": "anime",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "The Grim Adventures of Billy & Mandy",
+      "medium": "cartoon",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Deadman Wonderland",
+      "medium": "anime",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Adventure Time",
+      "medium": "cartoon",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Bread Barbershop",
+      "medium": "cartoon",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "The Cuphead Show!",
+      "medium": "cartoon",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Centaurworld",
+      "medium": "cartoon",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Dragon Quest: The Adventure of Dai",
+      "medium": "anime",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Log Horizon",
+      "medium": "anime",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Overlord",
+      "medium": "anime",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Ranking of Kings",
+      "medium": "anime",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Reaper",
+      "medium": "tv",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Soul Eater",
+      "medium": "anime",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "The Rising of the Shield Hero",
+      "medium": "anime",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Shangri-La Frontier",
+      "medium": "anime",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Solo Leveling",
+      "medium": "anime",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Welcome to Demon-School! Iruma-kun",
+      "medium": "anime",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Locke & Key",
+      "medium": "tv",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Pushing Daisies",
+      "medium": "tv",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Warehouse 13",
+      "medium": "tv",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Infinity Train",
+      "medium": "cartoon",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Ted",
+      "medium": "tv",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "The Queen’s Gambit",
+      "medium": "tv",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "The Witcher",
+      "medium": "tv",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Wonderfalls",
+      "medium": "tv",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Attack on Titan",
+      "medium": "anime",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Spawn: The Animated Series",
+      "medium": "cartoon",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Supernatural",
+      "medium": "tv",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Tower of God",
+      "medium": "anime",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Castlevania",
+      "medium": "cartoon",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Castlevania: Nocturne",
+      "medium": "cartoon",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Dorohedoro",
+      "medium": "anime",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Haunting of Bly Manor",
+      "medium": "tv",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Anne with an E",
+      "medium": "tv",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Charmed",
+      "medium": "tv",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Game of Thrones",
+      "medium": "tv",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "House of the Dragon",
+      "medium": "tv",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Sweet Tooth",
+      "medium": "tv",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Cabinet of Curiosities",
+      "medium": "tv",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Fate/Zero",
+      "medium": "anime",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Lovecraft Country",
+      "medium": "tv",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Over the Garden Wall",
+      "medium": "cartoon",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Samurai Jack",
+      "medium": "cartoon",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Arcane",
+      "medium": "cartoon",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Grimgar: Ashes and Illusions",
+      "medium": "anime",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Lucifer",
+      "medium": "tv",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Avatar: The Last Airbender",
+      "medium": "cartoon",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Blood of Zeus",
+      "medium": "cartoon",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Dracula (Netflix)",
+      "medium": "tv",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "The Fall of the House of Usher",
+      "medium": "tv",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Penny Dreadful",
+      "medium": "tv",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Vampire Diaries",
+      "medium": "tv",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Berserk (1997)",
+      "medium": "anime",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Claymore",
+      "medium": "anime",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Demon Slayer",
+      "medium": "anime",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Dororo",
+      "medium": "anime",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Fate/stay night: Unlimited Blade Works",
+      "medium": "anime",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Goblin Slayer",
+      "medium": "anime",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "That Time I Got Reincarnated as a Slime",
+      "medium": "anime",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Dark Crystal: Age of Resistance",
+      "medium": "tv",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Legend of Korra",
+      "medium": "cartoon",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "So I’m a Spider, So What?",
+      "medium": "anime",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Amphibia",
+      "medium": "cartoon",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Legend of Vox Machina",
+      "medium": "cartoon",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Ossan Newbie Adventurer",
+      "medium": "anime",
+      "primary_genre": "Dark Fantasy & Fairy-Tale Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Stranger Things",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": true
+    },
+    {
+      "title": "Fire Force",
+      "medium": "anime",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Westworld",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Noein: To Your Other Self",
+      "medium": "anime",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Rick and Morty",
+      "medium": "cartoon",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Lord of Mysteries",
+      "medium": "anime",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Lost in Space (2018)",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Colony (2016)",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "True Detective",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Bodies",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Black Mirror",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Archive 81",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Battlestar Galactica (2004)",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Dark",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Doctor Who",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "From",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "The I-Land",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Utopia (UK)",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Yellowjackets",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Inside Job",
+      "medium": "cartoon",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Devs",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Gen V",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Lost",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Severance",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "The Haunting of Hill House",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "The Lost Room",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "The OA",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "12 Monkeys",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "1899",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "3 Body Problem",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Alice in Borderland",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Higurashi: When They Cry",
+      "medium": "anime",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The 4400",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Hannibal",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Ripper Street",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "The Blacklist",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Childhood’s End",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Dark Matter (2015)",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Eureka",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "House M.D.",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "John Doe",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Kyle XY",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Living with Yourself",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Manifest",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Midnight Mass",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Monk",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Picard",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Pretty Little Liars",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Psych",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Silo",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "The Expanse",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "The OC",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "The Tourist",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "The X-Files",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Wayward Pines",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Another",
+      "medium": "anime",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Ergo Proxy",
+      "medium": "anime",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Journeyman",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Mr. Robot",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Russian Doll",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Summertime Rendering",
+      "medium": "anime",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Lazarus Project",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Prisoner (1967)",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Rig",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Wilds",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Line of Duty",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Millennium",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Mindhunter",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Orphan Black",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Night Of",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "The Sinner",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "The Umbrella Academy",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "White Collar",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "You",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Gravity Falls",
+      "medium": "cartoon",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Pantheon",
+      "medium": "cartoon",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Pluto",
+      "medium": "anime",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "American Vandal",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Erased",
+      "medium": "anime",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Gossip Girl",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Station Eleven",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "The Leftovers",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Fringe",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Heavenly Delusion",
+      "medium": "anime",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Heroes",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Jack Ryan",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Jessica Jones",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Legion",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Maniac",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Serial Experiments Lain",
+      "medium": "anime",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Shiki",
+      "medium": "anime",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Devil’s Hour",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Midnight Club",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Night Agent",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Watchmen",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Young Justice",
+      "medium": "cartoon",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Fall",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Travelers",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Utopia (US)",
+      "medium": "tv",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Monster",
+      "medium": "anime",
+      "primary_genre": "Puzzle-Box, Mystery & Conspiracy",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Mr. Pickles",
+      "medium": "cartoon",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Mob Psycho 100",
+      "medium": "anime",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Courage the Cowardly Dog",
+      "medium": "cartoon",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Yu Yu Hakusho",
+      "medium": "anime",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Scavengers Reign",
+      "medium": "cartoon",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "The Walking Dead",
+      "medium": "tv",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Invincible",
+      "medium": "tv",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Love, Death & Robots",
+      "medium": "cartoon",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Chainsaw Man",
+      "medium": "anime",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Doom Patrol",
+      "medium": "tv",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Boys: Diabolical",
+      "medium": "cartoon",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Last of Us",
+      "medium": "tv",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Parasyte: The Maxim",
+      "medium": "anime",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Outsider",
+      "medium": "tv",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "American Horror Story",
+      "medium": "tv",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Buffy the Vampire Slayer",
+      "medium": "tv",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Chernobyl",
+      "medium": "tv",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Devilman Crybaby",
+      "medium": "anime",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Jujutsu Kaisen",
+      "medium": "anime",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Primal",
+      "medium": "cartoon",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Terror",
+      "medium": "tv",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Channel Zero",
+      "medium": "tv",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The God of High School",
+      "medium": "anime",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Regular Show",
+      "medium": "cartoon",
+      "primary_genre": "Dark / Supernatural Horror",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Codename: Kids Next Door",
+      "medium": "cartoon",
+      "primary_genre": "Sci-Fi, Cyberpunk & Dystopia",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Andor",
+      "medium": "tv",
+      "primary_genre": "Sci-Fi, Cyberpunk & Dystopia",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Fallout",
+      "medium": "tv",
+      "primary_genre": "Sci-Fi, Cyberpunk & Dystopia",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "The 100",
+      "medium": "tv",
+      "primary_genre": "Sci-Fi, Cyberpunk & Dystopia",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Invader Zim",
+      "medium": "cartoon",
+      "primary_genre": "Sci-Fi, Cyberpunk & Dystopia",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Justice League Unlimited",
+      "medium": "cartoon",
+      "primary_genre": "Sci-Fi, Cyberpunk & Dystopia",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Counterpart",
+      "medium": "tv",
+      "primary_genre": "Sci-Fi, Cyberpunk & Dystopia",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Dark Angel",
+      "medium": "tv",
+      "primary_genre": "Sci-Fi, Cyberpunk & Dystopia",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Firefly",
+      "medium": "tv",
+      "primary_genre": "Sci-Fi, Cyberpunk & Dystopia",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Harsh Realm",
+      "medium": "tv",
+      "primary_genre": "Sci-Fi, Cyberpunk & Dystopia",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Roswell",
+      "medium": "tv",
+      "primary_genre": "Sci-Fi, Cyberpunk & Dystopia",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Star Trek: Discovery",
+      "medium": "tv",
+      "primary_genre": "Sci-Fi, Cyberpunk & Dystopia",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Star Trek: Lower Decks",
+      "medium": "cartoon",
+      "primary_genre": "Sci-Fi, Cyberpunk & Dystopia",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Star Trek: Strange New Worlds",
+      "medium": "tv",
+      "primary_genre": "Sci-Fi, Cyberpunk & Dystopia",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Star Trek: The Next Generation",
+      "medium": "tv",
+      "primary_genre": "Sci-Fi, Cyberpunk & Dystopia",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "The Invisible Man",
+      "medium": "tv",
+      "primary_genre": "Sci-Fi, Cyberpunk & Dystopia",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "TRON: Uprising",
+      "medium": "cartoon",
+      "primary_genre": "Sci-Fi, Cyberpunk & Dystopia",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "The Plot Against America",
+      "medium": "tv",
+      "primary_genre": "Sci-Fi, Cyberpunk & Dystopia",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Psycho-Pass",
+      "medium": "anime",
+      "primary_genre": "Sci-Fi, Cyberpunk & Dystopia",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Megalo Box",
+      "medium": "anime",
+      "primary_genre": "Sci-Fi, Cyberpunk & Dystopia",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Baki",
+      "medium": "anime",
+      "primary_genre": "Martial Arts, Tournament & Combat",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Hajime no Ippo",
+      "medium": "anime",
+      "primary_genre": "Martial Arts, Tournament & Combat",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Kenichi: The Mightiest Disciple",
+      "medium": "anime",
+      "primary_genre": "Martial Arts, Tournament & Combat",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Toriko",
+      "medium": "anime",
+      "primary_genre": "Martial Arts, Tournament & Combat",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Gangs of London",
+      "medium": "tv",
+      "primary_genre": "Martial Arts, Tournament & Combat",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Kingdom",
+      "medium": "tv",
+      "primary_genre": "Martial Arts, Tournament & Combat",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Warrior",
+      "medium": "tv",
+      "primary_genre": "Martial Arts, Tournament & Combat",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Cobra Kai",
+      "medium": "tv",
+      "primary_genre": "Martial Arts, Tournament & Combat",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Kengan Ashura",
+      "medium": "anime",
+      "primary_genre": "Martial Arts, Tournament & Combat",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Wind Breaker",
+      "medium": "anime",
+      "primary_genre": "Martial Arts, Tournament & Combat",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Mashle: Magic and Muscles",
+      "medium": "anime",
+      "primary_genre": "Magic, Isekai & Power Progression",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Black Clover",
+      "medium": "anime",
+      "primary_genre": "Magic, Isekai & Power Progression",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "One-Punch Man",
+      "medium": "anime",
+      "primary_genre": "Superheroes & Antiheroes",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "The Boys",
+      "medium": "tv",
+      "primary_genre": "Superheroes & Antiheroes",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Daredevil",
+      "medium": "tv",
+      "primary_genre": "Superheroes & Antiheroes",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Misfits",
+      "medium": "tv",
+      "primary_genre": "Superheroes & Antiheroes",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Punisher",
+      "medium": "tv",
+      "primary_genre": "Superheroes & Antiheroes",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Smallville",
+      "medium": "tv",
+      "primary_genre": "Superheroes & Antiheroes",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Peacemaker",
+      "medium": "tv",
+      "primary_genre": "Superheroes & Antiheroes",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Teen Titans",
+      "medium": "cartoon",
+      "primary_genre": "Superheroes & Antiheroes",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "The Spectacular Spider-Man",
+      "medium": "cartoon",
+      "primary_genre": "Superheroes & Antiheroes",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "My Hero Academia",
+      "medium": "anime",
+      "primary_genre": "Superheroes & Antiheroes",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Sharkdog",
+      "medium": "cartoon",
+      "primary_genre": "Dark / Weird Animation & Cartoons",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Kick Buttowski: Suburban Daredevil",
+      "medium": "cartoon",
+      "primary_genre": "Dark / Weird Animation & Cartoons",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Fargo",
+      "medium": "tv",
+      "primary_genre": "Dark / Weird Animation & Cartoons",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Archer",
+      "medium": "cartoon",
+      "primary_genre": "Dark / Weird Animation & Cartoons",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Barry",
+      "medium": "tv",
+      "primary_genre": "Dark / Weird Animation & Cartoons",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Mr. Inbetween",
+      "medium": "tv",
+      "primary_genre": "Dark / Weird Animation & Cartoons",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Paradise PD",
+      "medium": "cartoon",
+      "primary_genre": "Dark / Weird Animation & Cartoons",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "South Park",
+      "medium": "cartoon",
+      "primary_genre": "Dark / Weird Animation & Cartoons",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Beef",
+      "medium": "tv",
+      "primary_genre": "Dark / Weird Animation & Cartoons",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "It’s Always Sunny in Philadelphia",
+      "medium": "tv",
+      "primary_genre": "Dark / Weird Animation & Cartoons",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Patriot",
+      "medium": "tv",
+      "primary_genre": "Dark / Weird Animation & Cartoons",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Slow Horses",
+      "medium": "tv",
+      "primary_genre": "Dark / Weird Animation & Cartoons",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "The Bear",
+      "medium": "tv",
+      "primary_genre": "Dark / Weird Animation & Cartoons",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "The Midnight Gospel",
+      "medium": "cartoon",
+      "primary_genre": "Dark / Weird Animation & Cartoons",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Animal Kingdom",
+      "medium": "tv",
+      "primary_genre": "Crime, Thriller & Serial Killers",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Better Call Saul",
+      "medium": "tv",
+      "primary_genre": "Crime, Thriller & Serial Killers",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Boardwalk Empire",
+      "medium": "tv",
+      "primary_genre": "Crime, Thriller & Serial Killers",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Bosch",
+      "medium": "tv",
+      "primary_genre": "Crime, Thriller & Serial Killers",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Deadwood",
+      "medium": "tv",
+      "primary_genre": "Crime, Thriller & Serial Killers",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Nip/Tuck",
+      "medium": "tv",
+      "primary_genre": "Crime, Thriller & Serial Killers",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Oz",
+      "medium": "tv",
+      "primary_genre": "Crime, Thriller & Serial Killers",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Ozark",
+      "medium": "tv",
+      "primary_genre": "Crime, Thriller & Serial Killers",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Peaky Blinders",
+      "medium": "tv",
+      "primary_genre": "Crime, Thriller & Serial Killers",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "The Shield",
+      "medium": "tv",
+      "primary_genre": "Crime, Thriller & Serial Killers",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "ZeroZeroZero",
+      "medium": "tv",
+      "primary_genre": "Crime, Thriller & Serial Killers",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Breaking Bad",
+      "medium": "tv",
+      "primary_genre": "Crime, Thriller & Serial Killers",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Dexter",
+      "medium": "tv",
+      "primary_genre": "Crime, Thriller & Serial Killers",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Hawaii Five-0",
+      "medium": "tv",
+      "primary_genre": "Crime, Thriller & Serial Killers",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Narcos",
+      "medium": "tv",
+      "primary_genre": "Crime, Thriller & Serial Killers",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Snowfall",
+      "medium": "tv",
+      "primary_genre": "Crime, Thriller & Serial Killers",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Southland",
+      "medium": "tv",
+      "primary_genre": "Crime, Thriller & Serial Killers",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Top Boy",
+      "medium": "tv",
+      "primary_genre": "Crime, Thriller & Serial Killers",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Tulsa King",
+      "medium": "tv",
+      "primary_genre": "Crime, Thriller & Serial Killers",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Yellowstone",
+      "medium": "tv",
+      "primary_genre": "Crime, Thriller & Serial Killers",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Scandal",
+      "medium": "tv",
+      "primary_genre": "Crime, Thriller & Serial Killers",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "The Americans",
+      "medium": "tv",
+      "primary_genre": "Crime, Thriller & Serial Killers",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Turn: Washington’s Spies",
+      "medium": "tv",
+      "primary_genre": "Crime, Thriller & Serial Killers",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "The Sopranos",
+      "medium": "tv",
+      "primary_genre": "Crime, Thriller & Serial Killers",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "The Wire",
+      "medium": "tv",
+      "primary_genre": "Crime, Thriller & Serial Killers",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Band of Brothers",
+      "medium": "tv",
+      "primary_genre": "Historical, War & Western",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Black Sails",
+      "medium": "tv",
+      "primary_genre": "Historical, War & Western",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Hell on Wheels",
+      "medium": "tv",
+      "primary_genre": "Historical, War & Western",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Rome",
+      "medium": "tv",
+      "primary_genre": "Historical, War & Western",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "The Last Kingdom",
+      "medium": "tv",
+      "primary_genre": "Historical, War & Western",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "The Pacific",
+      "medium": "tv",
+      "primary_genre": "Historical, War & Western",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Vikings",
+      "medium": "tv",
+      "primary_genre": "Historical, War & Western",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "SK8 the Infinity",
+      "medium": "anime",
+      "primary_genre": "Adventure, Survival & Exploration",
+      "reddit": false,
+      "seed": true
+    },
+    {
+      "title": "Succession",
+      "medium": "tv",
+      "primary_genre": "Adventure, Survival & Exploration",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Life Unexpected",
+      "medium": "tv",
+      "primary_genre": "Adventure, Survival & Exploration",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "One Tree Hill",
+      "medium": "tv",
+      "primary_genre": "Adventure, Survival & Exploration",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Switched at Birth",
+      "medium": "tv",
+      "primary_genre": "Adventure, Survival & Exploration",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "The Fosters",
+      "medium": "tv",
+      "primary_genre": "Adventure, Survival & Exploration",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "The Morning Show",
+      "medium": "tv",
+      "primary_genre": "Adventure, Survival & Exploration",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Blue Eye Samurai",
+      "medium": "cartoon",
+      "primary_genre": "Adventure, Survival & Exploration",
+      "reddit": false,
+      "seed": false
+    },
+    {
+      "title": "Black Books",
+      "medium": "tv",
+      "primary_genre": "Comedy / Strange / Lighter Side",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Unbreakable Kimmy Schmidt",
+      "medium": "tv",
+      "primary_genre": "Comedy / Strange / Lighter Side",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "30 Rock",
+      "medium": "tv",
+      "primary_genre": "Comedy / Strange / Lighter Side",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Brooklyn Nine-Nine",
+      "medium": "tv",
+      "primary_genre": "Comedy / Strange / Lighter Side",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Dawson’s Creek",
+      "medium": "tv",
+      "primary_genre": "Comedy / Strange / Lighter Side",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Felicity",
+      "medium": "tv",
+      "primary_genre": "Comedy / Strange / Lighter Side",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Flight of the Conchords",
+      "medium": "tv",
+      "primary_genre": "Comedy / Strange / Lighter Side",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Freaks and Geeks",
+      "medium": "tv",
+      "primary_genre": "Comedy / Strange / Lighter Side",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Gilmore Girls",
+      "medium": "tv",
+      "primary_genre": "Comedy / Strange / Lighter Side",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Greek",
+      "medium": "tv",
+      "primary_genre": "Comedy / Strange / Lighter Side",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "My So-Called Life",
+      "medium": "tv",
+      "primary_genre": "Comedy / Strange / Lighter Side",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Parks and Recreation",
+      "medium": "tv",
+      "primary_genre": "Comedy / Strange / Lighter Side",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "Sex Education",
+      "medium": "tv",
+      "primary_genre": "Comedy / Strange / Lighter Side",
+      "reddit": true,
+      "seed": false
+    },
+    {
+      "title": "The Office (U.S.)",
+      "medium": "tv",
+      "primary_genre": "Comedy / Strange / Lighter Side",
+      "reddit": true,
+      "seed": false
+    }
+  ]
+}
