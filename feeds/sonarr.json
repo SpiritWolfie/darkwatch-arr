@@ -240,6 +240,12 @@
     "ImdbId": "tt11147852"
   },
   {
+    "TvdbId": 345246,
+    "Title": "The Haunting of Bly Manor",
+    "TmdbId": 109958,
+    "ImdbId": "tt10970552"
+  },
+  {
     "TvdbId": 322971,
     "Title": "Anne with an E",
     "TmdbId": 70785,
@@ -1198,6 +1204,12 @@
     "Title": "Invader ZIM",
     "TmdbId": 3793,
     "ImdbId": "tt0235923"
+  },
+  {
+    "TvdbId": 76320,
+    "Title": "Justice League Unlimited",
+    "TmdbId": 84200,
+    "ImdbId": "tt6025022"
   },
   {
     "TvdbId": 337302,

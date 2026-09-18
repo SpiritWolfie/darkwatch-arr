@@ -1,6 +1,6 @@
 {
   "movies": 31,
-  "shows": 304,
+  "shows": 306,
   "unresolved": [
     "Coraline",
     "Hellboy",
@@ -22,9 +22,6 @@
     "District 9",
     "ParaNorman",
     "Spider-Man: Into the Spider-Verse",
-    "The Incredibles",
-    "The Haunting of Bly Manor",
-    "The Haunting of Hill House",
-    "Justice League Unlimited"
+    "The Incredibles"
   ]
 }
