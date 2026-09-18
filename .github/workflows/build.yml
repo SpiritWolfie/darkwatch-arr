@@ -16,7 +16,7 @@ jobs:
         with: {python-version: '3.12'}
       - name: Build feeds
         env:
-          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          TMDB_API_KEY: ${{ secrets.secrets.TMDB_TOKEN }}
         run: python scripts/build_lists.py
       - name: Commit generated feeds
         run: |
