@@ -1,0 +1,2414 @@
+{
+  "anime|Another|": {
+    "imdbId": "tt2176165",
+    "title": "Another",
+    "tmdbId": 42589,
+    "tvdbId": 254349,
+    "year": "2012"
+  },
+  "anime|Attack on Titan|": {
+    "imdbId": "tt2560140",
+    "title": "Attack on Titan",
+    "tmdbId": 1429,
+    "tvdbId": 267440,
+    "year": "2013"
+  },
+  "anime|Baki|": {
+    "imdbId": "tt6357658",
+    "title": "BAKI",
+    "tmdbId": 80623,
+    "tvdbId": 348742,
+    "year": "2018"
+  },
+  "anime|Berserk (1997)|": {
+    "imdbId": "tt0318871",
+    "title": "Berserk",
+    "tmdbId": 35935,
+    "tvdbId": 73752,
+    "year": "1997"
+  },
+  "anime|Black Clover|": {
+    "imdbId": "tt7441658",
+    "title": "Black Clover",
+    "tmdbId": 73223,
+    "tvdbId": 331753,
+    "year": "2017"
+  },
+  "anime|Chainsaw Man|": {
+    "imdbId": "tt13616990",
+    "title": "Chainsaw Man",
+    "tmdbId": 114410,
+    "tvdbId": 397934,
+    "year": "2022"
+  },
+  "anime|Claymore|": {
+    "imdbId": "tt0985344",
+    "title": "Claymore",
+    "tmdbId": 34791,
+    "tvdbId": 79995,
+    "year": "2007"
+  },
+  "anime|Deadman Wonderland|": {
+    "imdbId": "tt1909447",
+    "title": "Deadman Wonderland",
+    "tmdbId": 42503,
+    "tvdbId": 247997,
+    "year": "2011"
+  },
+  "anime|Demon Slayer|": {
+    "imdbId": "tt9335498",
+    "title": "Demon Slayer: Kimetsu no Yaiba",
+    "tmdbId": 85937,
+    "tvdbId": 348545,
+    "year": "2019"
+  },
+  "anime|Devilman Crybaby|": {
+    "imdbId": "tt6660498",
+    "title": "Devilman Crybaby",
+    "tmdbId": 75208,
+    "tvdbId": 338192,
+    "year": "2018"
+  },
+  "anime|Dorohedoro|": {
+    "imdbId": "tt11147852",
+    "title": "Dorohedoro",
+    "tmdbId": 94404,
+    "tvdbId": 370761,
+    "year": "2020"
+  },
+  "anime|Dororo|": {
+    "imdbId": "tt9458304",
+    "title": "Dororo",
+    "tmdbId": 83100,
+    "tvdbId": 354167,
+    "year": "2019"
+  },
+  "anime|Dragon Quest: The Adventure of Dai|": {
+    "imdbId": "tt11858104",
+    "title": "Dragon Quest: The Adventure of Dai",
+    "tmdbId": 96884,
+    "tvdbId": 374191,
+    "year": "2020"
+  },
+  "anime|Dragon's Dogma|": {
+    "imdbId": "tt10011298",
+    "title": "Dragon's Dogma",
+    "tmdbId": 99769,
+    "tvdbId": 385314,
+    "year": "2020"
+  },
+  "anime|Erased|": {
+    "imdbId": "tt5249462",
+    "title": "ERASED",
+    "tmdbId": 65249,
+    "tvdbId": 303071,
+    "year": "2016"
+  },
+  "anime|Ergo Proxy|": {
+    "imdbId": "tt0791205",
+    "title": "Ergo Proxy",
+    "tmdbId": 1097,
+    "tvdbId": 79228,
+    "year": "2006"
+  },
+  "anime|Fate/Zero|": {
+    "imdbId": "tt2051178",
+    "title": "Fate/Zero",
+    "tmdbId": 45845,
+    "tvdbId": 275798,
+    "year": "2011"
+  },
+  "anime|Fate/stay night: Unlimited Blade Works|": {
+    "imdbId": "tt3621796",
+    "title": "Fate/stay night [Unlimited Blade Works]",
+    "tmdbId": 61415,
+    "tvdbId": 278626,
+    "year": "2014"
+  },
+  "anime|Fire Force|": {
+    "imdbId": "tt9307686",
+    "title": "Fire Force",
+    "tmdbId": 88046,
+    "tvdbId": 355480,
+    "year": "2019"
+  },
+  "anime|Fullmetal Alchemist: Brotherhood|": {
+    "imdbId": "tt1355642",
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "tmdbId": 31911,
+    "tvdbId": 85249,
+    "year": "2009"
+  },
+  "anime|Goblin Slayer|": {
+    "imdbId": "tt8690728",
+    "title": "Goblin Slayer",
+    "tmdbId": 82591,
+    "tvdbId": 350166,
+    "year": "2018"
+  },
+  "anime|Grimgar: Ashes and Illusions|": {
+    "imdbId": "tt5341430",
+    "title": "Grimgar of Fantasy and Ash",
+    "tmdbId": 65369,
+    "tvdbId": 303868,
+    "year": "2016"
+  },
+  "anime|Hajime no Ippo|": {
+    "imdbId": "tt3514596",
+    "title": "Fighting Spirit: Rising",
+    "tmdbId": 315288,
+    "tvdbId": null,
+    "year": "2013"
+  },
+  "anime|Heavenly Delusion|": {
+    "imdbId": "tt22817632",
+    "title": "Tengoku Daimakyo",
+    "tmdbId": 208891,
+    "tvdbId": 426165,
+    "year": "2023"
+  },
+  "anime|Higurashi: When They Cry|": {
+    "imdbId": "tt0845738",
+    "title": "Higurashi: When They Cry",
+    "tmdbId": 25760,
+    "tvdbId": 79682,
+    "year": "2006"
+  },
+  "anime|Hunter x Hunter|": {
+    "imdbId": "tt0426719",
+    "title": "Hunter x Hunter",
+    "tmdbId": 45952,
+    "tvdbId": 79076,
+    "year": "1999"
+  },
+  "anime|Jujutsu Kaisen|": {
+    "imdbId": "tt12343534",
+    "title": "JUJUTSU KAISEN",
+    "tmdbId": 95479,
+    "tvdbId": 377543,
+    "year": "2020"
+  },
+  "anime|Kengan Ashura|": {
+    "imdbId": "tt9058134",
+    "title": "KENGAN ASHURA",
+    "tmdbId": 90660,
+    "tvdbId": 354179,
+    "year": "2019"
+  },
+  "anime|Kenichi: The Mightiest Disciple|": {
+    "imdbId": "tt1424037",
+    "title": "Kenichi: The Mightiest Disciple",
+    "tmdbId": 37585,
+    "tvdbId": 80000,
+    "year": "2006"
+  },
+  "anime|Log Horizon|": {
+    "imdbId": "tt2942218",
+    "title": "Log Horizon",
+    "tmdbId": 60846,
+    "tvdbId": 272128,
+    "year": "2013"
+  },
+  "anime|Lord of Mysteries|": {
+    "imdbId": "tt28618556",
+    "title": "Lord of Mysteries",
+    "tmdbId": 232230,
+    "tvdbId": 464419,
+    "year": "2025"
+  },
+  "anime|Made in Abyss|": {
+    "imdbId": "tt7222086",
+    "title": "Made in Abyss",
+    "tmdbId": 72636,
+    "tvdbId": 326109,
+    "year": "2017"
+  },
+  "anime|Magi: The Labyrinth of Magic|": {
+    "imdbId": "tt2425098",
+    "title": "Magi",
+    "tmdbId": 60654,
+    "tvdbId": 262094,
+    "year": "2012"
+  },
+  "anime|Mashle: Magic and Muscles|": {
+    "imdbId": "tt21209804",
+    "title": "MASHLE: MAGIC AND MUSCLES",
+    "tmdbId": 204832,
+    "tvdbId": 421737,
+    "year": "2023"
+  },
+  "anime|Megalo Box|": {
+    "imdbId": "tt7965802",
+    "title": "MEGALOBOX",
+    "tmdbId": 77939,
+    "tvdbId": 341437,
+    "year": "2018"
+  },
+  "anime|Mob Psycho 100|": {
+    "imdbId": "tt5897304",
+    "title": "Mob Psycho 100",
+    "tmdbId": 67075,
+    "tvdbId": 307375,
+    "year": "2016"
+  },
+  "anime|Monster|": {
+    "imdbId": "tt0434706",
+    "title": "Monster",
+    "tmdbId": 30981,
+    "tvdbId": 74599,
+    "year": "2004"
+  },
+  "anime|My Hero Academia|": {
+    "imdbId": "tt5626028",
+    "title": "My Hero Academia",
+    "tmdbId": 65930,
+    "tvdbId": 305074,
+    "year": "2016"
+  },
+  "anime|Noein: To Your Other Self|": {
+    "imdbId": "tt0872308",
+    "title": "Noein: To Your Other Self",
+    "tmdbId": 9041,
+    "tvdbId": 79129,
+    "year": "2005"
+  },
+  "anime|One-Punch Man|": {
+    "imdbId": "tt4508902",
+    "title": "One-Punch Man",
+    "tmdbId": 63926,
+    "tvdbId": 293088,
+    "year": "2015"
+  },
+  "anime|Overlord|": {
+    "imdbId": "tt4869896",
+    "title": "Overlord",
+    "tmdbId": 64196,
+    "tvdbId": 294002,
+    "year": "2015"
+  },
+  "anime|Parasyte: The Maxim|": {
+    "imdbId": "tt3358020",
+    "title": "Parasyte -the maxim-",
+    "tmdbId": 61459,
+    "tvdbId": 279831,
+    "year": "2014"
+  },
+  "anime|Pluto|": {
+    "imdbId": "tt26737616",
+    "title": "PLUTO",
+    "tmdbId": 91997,
+    "tvdbId": 431093,
+    "year": "2023"
+  },
+  "anime|Psycho-Pass|": {
+    "imdbId": "tt2379308",
+    "title": "Psycho-Pass",
+    "tmdbId": 43865,
+    "tvdbId": 262090,
+    "year": "2012"
+  },
+  "anime|Ranking of Kings|": {
+    "imdbId": "tt13409432",
+    "title": "Ranking of Kings",
+    "tmdbId": 112613,
+    "tvdbId": 391625,
+    "year": "2021"
+  },
+  "anime|SK8 the Infinity|": {
+    "imdbId": "tt13129190",
+    "title": "SK8 the Infinity",
+    "tmdbId": 110309,
+    "tvdbId": 388858,
+    "year": "2021"
+  },
+  "anime|Serial Experiments Lain|": {
+    "imdbId": "tt0500092",
+    "title": "Serial Experiments Lain",
+    "tmdbId": 1087,
+    "tvdbId": 78814,
+    "year": "1998"
+  },
+  "anime|Shangri-La Frontier|": {
+    "imdbId": "tt28776190",
+    "title": "Shangri-La Frontier",
+    "tmdbId": 205050,
+    "tvdbId": 421855,
+    "year": "2023"
+  },
+  "anime|Shiki|": {
+    "imdbId": "tt2016670",
+    "title": "Shiki",
+    "tmdbId": 36581,
+    "tvdbId": 172941,
+    "year": "2010"
+  },
+  "anime|So I\u2019m a Spider, So What?|": {
+    "imdbId": "tt12598008",
+    "title": "So I'm a Spider, So What?",
+    "tmdbId": 99618,
+    "tvdbId": 377902,
+    "year": "2021"
+  },
+  "anime|Solo Leveling|": {
+    "imdbId": "tt21209876",
+    "title": "Solo Leveling",
+    "tmdbId": 127532,
+    "tvdbId": 389597,
+    "year": "2024"
+  },
+  "anime|Soul Eater|": {
+    "imdbId": "tt1214085",
+    "title": "Soul Eater",
+    "tmdbId": 37305,
+    "tvdbId": 81751,
+    "year": "2008"
+  },
+  "anime|Summertime Rendering|": {
+    "imdbId": "tt15686254",
+    "title": "Summer Time Rendering",
+    "tmdbId": 117933,
+    "tvdbId": 407306,
+    "year": "2022"
+  },
+  "anime|That Time I Got Reincarnated as a Slime|": {
+    "imdbId": "tt9054364",
+    "title": "That Time I Got Reincarnated as a Slime",
+    "tmdbId": 82684,
+    "tvdbId": 352408,
+    "year": "2018"
+  },
+  "anime|The God of High School|": {
+    "imdbId": "tt12227418",
+    "title": "The God of High School",
+    "tmdbId": 99778,
+    "tvdbId": 378556,
+    "year": "2020"
+  },
+  "anime|The Ossan Newbie Adventurer|": {
+    "imdbId": "tt31596104",
+    "title": "The Ossan Newbie Adventurer, Trained to Death by the Most Powerful Party, Became Invincible",
+    "tmdbId": 250598,
+    "tvdbId": 433155,
+    "year": "2024"
+  },
+  "anime|The Promised Neverland|": {
+    "imdbId": "tt8788458",
+    "title": "The Promised Neverland",
+    "tmdbId": 83097,
+    "tvdbId": 348002,
+    "year": "2019"
+  },
+  "anime|The Rising of the Shield Hero|": {
+    "imdbId": "tt9529546",
+    "title": "The Rising of the Shield Hero",
+    "tmdbId": 83095,
+    "tvdbId": 353712,
+    "year": "2019"
+  },
+  "anime|Toriko|": {
+    "imdbId": "tt1899047",
+    "title": "Toriko",
+    "tmdbId": 38251,
+    "tvdbId": 247231,
+    "year": "2011"
+  },
+  "anime|Tower of God|": {
+    "imdbId": "tt12057106",
+    "title": "Tower of God",
+    "tmdbId": 97860,
+    "tvdbId": 376729,
+    "year": "2020"
+  },
+  "anime|Welcome to Demon-School! Iruma-kun|": {
+    "imdbId": "tt11034066",
+    "title": "Welcome to Demon School! Iruma-kun",
+    "tmdbId": 91801,
+    "tvdbId": 369144,
+    "year": "2019"
+  },
+  "anime|Wind Breaker|": {
+    "imdbId": "tt29605391",
+    "title": "WIND BREAKER",
+    "tmdbId": 223500,
+    "tvdbId": 433088,
+    "year": "2024"
+  },
+  "anime|Yu Yu Hakusho|": {
+    "imdbId": "tt0185133",
+    "title": "Yu Yu Hakusho",
+    "tmdbId": 30669,
+    "tvdbId": 76665,
+    "year": "1992"
+  },
+  "cartoon|Adventure Time|": {
+    "imdbId": "tt1305826",
+    "title": "Adventure Time",
+    "tmdbId": 15260,
+    "tvdbId": 152831,
+    "year": "2010"
+  },
+  "cartoon|Amphibia|": {
+    "imdbId": "tt8050740",
+    "title": "Amphibia",
+    "tmdbId": 85349,
+    "tvdbId": 350984,
+    "year": "2019"
+  },
+  "cartoon|Arcane|": {
+    "imdbId": "tt11126994",
+    "title": "Arcane",
+    "tmdbId": 94605,
+    "tvdbId": 371028,
+    "year": "2021"
+  },
+  "cartoon|Archer|": {
+    "imdbId": "tt1486217",
+    "title": "Archer",
+    "tmdbId": 10283,
+    "tvdbId": 110381,
+    "year": "2009"
+  },
+  "cartoon|Avatar: The Last Airbender|": {
+    "imdbId": "tt9018736",
+    "title": "Avatar: The Last Airbender",
+    "tmdbId": 82452,
+    "tvdbId": 385925,
+    "year": "2024"
+  },
+  "cartoon|Blood of Zeus|": {
+    "imdbId": "tt10009170",
+    "title": "Blood of Zeus",
+    "tmdbId": 111111,
+    "tvdbId": 473467,
+    "year": "2020"
+  },
+  "cartoon|Blue Eye Samurai|": {
+    "imdbId": "tt13309742",
+    "title": "BLUE EYE SAMURAI",
+    "tmdbId": 225180,
+    "tvdbId": 434151,
+    "year": "2023"
+  },
+  "cartoon|Bread Barbershop|": {
+    "imdbId": "tt12912830",
+    "title": "Bread Barbershop",
+    "tmdbId": 129832,
+    "tvdbId": 387283,
+    "year": "2019"
+  },
+  "cartoon|Castlevania: Nocturne|": {
+    "imdbId": "tt14833612",
+    "title": "Castlevania: Nocturne",
+    "tmdbId": 123548,
+    "tvdbId": 421113,
+    "year": "2023"
+  },
+  "cartoon|Castlevania|": {
+    "imdbId": "tt6517102",
+    "title": "Castlevania",
+    "tmdbId": 71024,
+    "tvdbId": 329065,
+    "year": "2017"
+  },
+  "cartoon|Centaurworld|": {
+    "imdbId": "tt10919290",
+    "title": "Centaurworld",
+    "tmdbId": 93233,
+    "tvdbId": 369122,
+    "year": "2021"
+  },
+  "cartoon|Codename: Kids Next Door|": {
+    "imdbId": "tt0312109",
+    "title": "Codename: Kids Next Door",
+    "tmdbId": 2660,
+    "tvdbId": 71685,
+    "year": "2002"
+  },
+  "cartoon|Courage the Cowardly Dog|": {
+    "imdbId": "tt0220880",
+    "title": "Courage the Cowardly Dog",
+    "tmdbId": 2085,
+    "tvdbId": 77435,
+    "year": "1999"
+  },
+  "cartoon|Gravity Falls|": {
+    "imdbId": "tt1865718",
+    "title": "Gravity Falls",
+    "tmdbId": 40075,
+    "tvdbId": 259972,
+    "year": "2012"
+  },
+  "cartoon|Infinity Train|": {
+    "imdbId": "tt8146754",
+    "title": "Infinity Train",
+    "tmdbId": 91425,
+    "tvdbId": 335425,
+    "year": "2019"
+  },
+  "cartoon|Inside Job|": {
+    "imdbId": "tt10231312",
+    "title": "Inside Job",
+    "tmdbId": 97727,
+    "tvdbId": 365098,
+    "year": "2021"
+  },
+  "cartoon|Invader Zim|": {
+    "imdbId": "tt0235923",
+    "title": "Invader ZIM",
+    "tmdbId": 3793,
+    "tvdbId": 75545,
+    "year": "2001"
+  },
+  "cartoon|Justice League Unlimited|": {
+    "imdbId": "tt6025022",
+    "title": "Justice League Unlimited",
+    "tmdbId": 84200,
+    "tvdbId": null,
+    "year": "2004"
+  },
+  "cartoon|Kick Buttowski: Suburban Daredevil|": {
+    "imdbId": "tt1600757",
+    "title": "Kick Buttowski: Suburban Daredevil",
+    "tmdbId": 17572,
+    "tvdbId": 159221,
+    "year": "2010"
+  },
+  "cartoon|Love, Death & Robots|": {
+    "imdbId": "tt9561862",
+    "title": "Love, Death & Robots",
+    "tmdbId": 86831,
+    "tvdbId": 357888,
+    "year": "2019"
+  },
+  "cartoon|Mr. Pickles|": {
+    "imdbId": "tt2950342",
+    "title": "Mr. Pickles",
+    "tmdbId": 61593,
+    "tvdbId": 277953,
+    "year": "2014"
+  },
+  "cartoon|Over the Garden Wall|": {
+    "imdbId": "tt3718778",
+    "title": "Over the Garden Wall",
+    "tmdbId": 61617,
+    "tvdbId": 281643,
+    "year": "2014"
+  },
+  "cartoon|Pantheon|": {
+    "imdbId": "tt11680642",
+    "title": "Pantheon",
+    "tmdbId": 195339,
+    "tvdbId": 417208,
+    "year": "2022"
+  },
+  "cartoon|Paradise PD|": {
+    "imdbId": "tt8235236",
+    "title": "Paradise PD",
+    "tmdbId": 81983,
+    "tvdbId": 348922,
+    "year": "2018"
+  },
+  "cartoon|Primal|": {
+    "imdbId": "tt10332508",
+    "title": "Primal",
+    "tmdbId": 89456,
+    "tvdbId": 364007,
+    "year": "2019"
+  },
+  "cartoon|Regular Show|": {
+    "imdbId": "tt1710308",
+    "title": "Regular Show",
+    "tmdbId": 31132,
+    "tvdbId": 188401,
+    "year": "2010"
+  },
+  "cartoon|Rick and Morty|": {
+    "imdbId": "tt2861424",
+    "title": "Rick and Morty",
+    "tmdbId": 60625,
+    "tvdbId": 275274,
+    "year": "2013"
+  },
+  "cartoon|Samurai Jack|": {
+    "imdbId": "tt0278238",
+    "title": "Samurai Jack",
+    "tmdbId": 2723,
+    "tvdbId": 75164,
+    "year": "2001"
+  },
+  "cartoon|Scavengers Reign|": {
+    "imdbId": "tt21056886",
+    "title": "Scavengers Reign",
+    "tmdbId": 204154,
+    "tvdbId": 421287,
+    "year": "2023"
+  },
+  "cartoon|Sharkdog|": {
+    "imdbId": "tt12211696",
+    "title": "Sharkdog",
+    "tmdbId": 130688,
+    "tvdbId": 408977,
+    "year": "2021"
+  },
+  "cartoon|South Park|": {
+    "imdbId": "tt0121955",
+    "title": "South Park",
+    "tmdbId": 2190,
+    "tvdbId": 75897,
+    "year": "1997"
+  },
+  "cartoon|Star Trek: Lower Decks|": {
+    "imdbId": "tt9184820",
+    "title": "Star Trek: Lower Decks",
+    "tmdbId": 85948,
+    "tvdbId": 367138,
+    "year": "2020"
+  },
+  "cartoon|TRON: Uprising|": {
+    "imdbId": "tt1812523",
+    "title": "TRON: Uprising",
+    "tmdbId": 34356,
+    "tvdbId": 258480,
+    "year": "2012"
+  },
+  "cartoon|Teen Titans|": {
+    "imdbId": "tt0343314",
+    "title": "Teen Titans",
+    "tmdbId": 604,
+    "tvdbId": 71503,
+    "year": "2003"
+  },
+  "cartoon|The Boys: Diabolical|": {
+    "imdbId": "tt16350094",
+    "title": "The Boys Presents: Diabolical",
+    "tmdbId": 152483,
+    "tvdbId": 413188,
+    "year": "2022"
+  },
+  "cartoon|The Cuphead Show!|": {
+    "imdbId": "tt10611608",
+    "title": "The Cuphead Show!",
+    "tmdbId": 103786,
+    "tvdbId": 366607,
+    "year": "2022"
+  },
+  "cartoon|The Grim Adventures of Billy & Mandy|": {
+    "imdbId": "tt0292800",
+    "title": "The Grim Adventures of Billy and Mandy",
+    "tmdbId": 897,
+    "tvdbId": 78980,
+    "year": "2001"
+  },
+  "cartoon|The Legend of Korra|": {
+    "imdbId": "tt1695360",
+    "title": "The Legend of Korra",
+    "tmdbId": 33880,
+    "tvdbId": 251085,
+    "year": "2012"
+  },
+  "cartoon|The Legend of Vox Machina|": {
+    "imdbId": "tt11247158",
+    "title": "The Legend of Vox Machina",
+    "tmdbId": 135934,
+    "tvdbId": 368316,
+    "year": "2022"
+  },
+  "cartoon|The Midnight Gospel|": {
+    "imdbId": "tt11639414",
+    "title": "The Midnight Gospel",
+    "tmdbId": 96713,
+    "tvdbId": 378553,
+    "year": "2020"
+  },
+  "cartoon|The Owl House|": {
+    "imdbId": "tt8050756",
+    "title": "The Owl House",
+    "tmdbId": 92685,
+    "tvdbId": 349578,
+    "year": "2020"
+  },
+  "cartoon|The Spectacular Spider-Man|": {
+    "imdbId": "tt0976192",
+    "title": "The Spectacular Spider-Man",
+    "tmdbId": 3854,
+    "tvdbId": 81494,
+    "year": "2008"
+  },
+  "cartoon|Young Justice|": {
+    "imdbId": "tt1641384",
+    "title": "Young Justice",
+    "tmdbId": 33217,
+    "tvdbId": 192061,
+    "year": "2010"
+  },
+  "movie|9|": {
+    "imdbId": "tt0472033",
+    "title": "9",
+    "tmdbId": 12244,
+    "year": "2009"
+  },
+  "movie|A Monster Calls|": {
+    "imdbId": "tt3416532",
+    "title": "A Monster Calls",
+    "tmdbId": 258230,
+    "year": "2016"
+  },
+  "movie|A Quiet Place|": {
+    "imdbId": "tt6644200",
+    "title": "A Quiet Place",
+    "tmdbId": 447332,
+    "year": "2018"
+  },
+  "movie|Akira|": {
+    "imdbId": "tt0094625",
+    "title": "Akira",
+    "tmdbId": 149,
+    "year": "1988"
+  },
+  "movie|Annihilation|": {
+    "imdbId": "tt2798920",
+    "title": "Annihilation",
+    "tmdbId": 300668,
+    "year": "2018"
+  },
+  "movie|Arrival|": {
+    "imdbId": "tt2543164",
+    "title": "Arrival",
+    "tmdbId": 329865,
+    "year": "2016"
+  },
+  "movie|Blade Runner 2049|": {
+    "imdbId": "tt1856101",
+    "title": "Blade Runner 2049",
+    "tmdbId": 335984,
+    "year": "2017"
+  },
+  "movie|Blade Runner|": {
+    "imdbId": "tt0083658",
+    "title": "Blade Runner",
+    "tmdbId": 78,
+    "year": "1982"
+  },
+  "movie|Coherence|": {
+    "imdbId": "tt2866360",
+    "title": "Coherence",
+    "tmdbId": 220289,
+    "year": "2014"
+  },
+  "movie|Coraline|": {
+    "imdbId": "tt0327597",
+    "title": "Coraline",
+    "tmdbId": 14836,
+    "year": "2009"
+  },
+  "movie|Cube|": {
+    "imdbId": "tt0123755",
+    "title": "Cube",
+    "tmdbId": 431,
+    "year": "1998"
+  },
+  "movie|Dark City|": {
+    "imdbId": "tt0118929",
+    "title": "Dark City",
+    "tmdbId": 2666,
+    "year": "1998"
+  },
+  "movie|District 9|": {
+    "imdbId": "tt1136608",
+    "title": "District 9",
+    "tmdbId": 17654,
+    "year": "2009"
+  },
+  "movie|Dredd|": {
+    "imdbId": "tt1343727",
+    "title": "Dredd",
+    "tmdbId": 49049,
+    "year": "2012"
+  },
+  "movie|Event Horizon|": {
+    "imdbId": "tt0119081",
+    "title": "Event Horizon",
+    "tmdbId": 8413,
+    "year": "1997"
+  },
+  "movie|Hellboy II: The Golden Army|": {
+    "imdbId": "tt0411477",
+    "title": "Hellboy II: The Golden Army",
+    "tmdbId": 11253,
+    "year": "2008"
+  },
+  "movie|Hellboy|": {
+    "imdbId": "tt0167190",
+    "title": "Hellboy",
+    "tmdbId": 1487,
+    "year": "2004"
+  },
+  "movie|Monster House|": {
+    "imdbId": "tt0385880",
+    "title": "Monster House",
+    "tmdbId": 9297,
+    "year": "2006"
+  },
+  "movie|Pandorum|": {
+    "imdbId": "tt1188729",
+    "title": "Pandorum",
+    "tmdbId": 19898,
+    "year": "2009"
+  },
+  "movie|Pan\u2019s Labyrinth|": {
+    "imdbId": "tt0457430",
+    "title": "Pan's Labyrinth",
+    "tmdbId": 1417,
+    "year": "2006"
+  },
+  "movie|ParaNorman|": {
+    "imdbId": "tt1623288",
+    "title": "ParaNorman",
+    "tmdbId": 77174,
+    "year": "2012"
+  },
+  "movie|Predestination|": {
+    "imdbId": "tt2397535",
+    "title": "Predestination",
+    "tmdbId": 206487,
+    "year": "2014"
+  },
+  "movie|Serenity|": {
+    "imdbId": "tt0379786",
+    "title": "Serenity",
+    "tmdbId": 16320,
+    "year": "2005"
+  },
+  "movie|Snowpiercer|": {
+    "imdbId": "tt1706620",
+    "title": "Snowpiercer",
+    "tmdbId": 110415,
+    "year": "2013"
+  },
+  "movie|Source Code|": {
+    "imdbId": "tt0945513",
+    "title": "Source Code",
+    "tmdbId": 45612,
+    "year": "2011"
+  },
+  "movie|Spider-Man: Into the Spider-Verse|": {
+    "imdbId": "tt4633694",
+    "title": "Spider-Man: Into the Spider-Verse",
+    "tmdbId": 324857,
+    "year": "2018"
+  },
+  "movie|Sunshine|": {
+    "imdbId": "tt0448134",
+    "title": "Sunshine",
+    "tmdbId": 1272,
+    "year": "2007"
+  },
+  "movie|The Cabin in the Woods|": {
+    "imdbId": "tt1259521",
+    "title": "The Cabin in the Woods",
+    "tmdbId": 22970,
+    "year": "2012"
+  },
+  "movie|The Cell|": {
+    "imdbId": "tt0209958",
+    "title": "The Cell",
+    "tmdbId": 8843,
+    "year": "2000"
+  },
+  "movie|The City of Lost Children|": {
+    "imdbId": "tt0112682",
+    "title": "The City of Lost Children",
+    "tmdbId": 902,
+    "year": "1995"
+  },
+  "movie|The Dark Crystal|": {
+    "imdbId": "tt0083791",
+    "title": "The Dark Crystal",
+    "tmdbId": 11639,
+    "year": "1982"
+  },
+  "movie|The Descent|": {
+    "imdbId": "tt0435625",
+    "title": "The Descent",
+    "tmdbId": 9392,
+    "year": "2005"
+  },
+  "movie|The Empty Man|": {
+    "imdbId": "tt5867314",
+    "title": "The Empty Man",
+    "tmdbId": 516632,
+    "year": "2020"
+  },
+  "movie|The Green Knight|": {
+    "imdbId": "tt9243804",
+    "title": "The Green Knight",
+    "tmdbId": 559907,
+    "year": "2021"
+  },
+  "movie|The Incredibles|": {
+    "imdbId": "tt0317705",
+    "title": "The Incredibles",
+    "tmdbId": 9806,
+    "year": "2004"
+  },
+  "movie|The Matrix|": {
+    "imdbId": "tt0133093",
+    "title": "The Matrix",
+    "tmdbId": 603,
+    "year": "1999"
+  },
+  "movie|The Menu|": {
+    "imdbId": "tt9764362",
+    "title": "The Menu",
+    "tmdbId": 593643,
+    "year": "2022"
+  },
+  "movie|The Mist|": {
+    "imdbId": "tt0884328",
+    "title": "The Mist",
+    "tmdbId": 5876,
+    "year": "2007"
+  },
+  "movie|The NeverEnding Story|": {
+    "imdbId": "tt0088323",
+    "title": "The NeverEnding Story",
+    "tmdbId": 34584,
+    "year": "1984"
+  },
+  "movie|The Nightmare Before Christmas|": {
+    "imdbId": "tt0107688",
+    "title": "The Nightmare Before Christmas",
+    "tmdbId": 9479,
+    "year": "1993"
+  },
+  "movie|The Platform|": {
+    "imdbId": "tt8228288",
+    "title": "The Platform",
+    "tmdbId": 619264,
+    "year": "2019"
+  },
+  "movie|The Ritual|": {
+    "imdbId": "tt32194932",
+    "title": "The Ritual",
+    "tmdbId": 1278950,
+    "year": "2025"
+  },
+  "movie|The Secret of Kells|": {
+    "imdbId": "tt0485601",
+    "title": "The Secret of Kells",
+    "tmdbId": 26963,
+    "year": "2009"
+  },
+  "movie|The Secret of NIMH|": {
+    "imdbId": "tt0084649",
+    "title": "The Secret of NIMH",
+    "tmdbId": 11704,
+    "year": "1982"
+  },
+  "movie|The Thing|": {
+    "imdbId": "tt0084787",
+    "title": "The Thing",
+    "tmdbId": 1091,
+    "year": "1982"
+  },
+  "movie|The Vast of Night|": {
+    "imdbId": "tt6803046",
+    "title": "The Vast of Night",
+    "tmdbId": 565743,
+    "year": "2019"
+  },
+  "movie|The Void|": {
+    "imdbId": "tt4255304",
+    "title": "The Void",
+    "tmdbId": 378018,
+    "year": "2016"
+  },
+  "movie|Triangle|": {
+    "imdbId": "tt1187064",
+    "title": "Triangle",
+    "tmdbId": 26466,
+    "year": "2009"
+  },
+  "movie|Upgrade|": {
+    "imdbId": "tt6499752",
+    "title": "Upgrade",
+    "tmdbId": 500664,
+    "year": "2018"
+  },
+  "movie|Van Helsing|": {
+    "imdbId": "tt0338526",
+    "title": "Van Helsing",
+    "tmdbId": 7131,
+    "year": "2004"
+  },
+  "movie|Watership Down|": {
+    "imdbId": "tt0078480",
+    "title": "Watership Down",
+    "tmdbId": 11837,
+    "year": "1978"
+  },
+  "movie|eXistenZ|": {
+    "imdbId": "tt0120907",
+    "title": "eXistenZ",
+    "tmdbId": 1946,
+    "year": "1999"
+  },
+  "tv|12 Monkeys|": {
+    "imdbId": "tt3148266",
+    "title": "12 Monkeys",
+    "tmdbId": 60948,
+    "tvdbId": 272644,
+    "year": "2015"
+  },
+  "tv|1899|": {
+    "imdbId": "tt9319668",
+    "title": "1899",
+    "tmdbId": 90669,
+    "tvdbId": 384429,
+    "year": "2022"
+  },
+  "tv|3 Body Problem|": {
+    "imdbId": "tt13016388",
+    "title": "3 Body Problem",
+    "tmdbId": 108545,
+    "tvdbId": 411959,
+    "year": "2024"
+  },
+  "tv|30 Rock|": {
+    "imdbId": "tt0496424",
+    "title": "30 Rock",
+    "tmdbId": 4608,
+    "tvdbId": 79488,
+    "year": "2006"
+  },
+  "tv|Alice in Borderland|": {
+    "imdbId": "tt10795658",
+    "title": "Alice in Borderland",
+    "tmdbId": 110316,
+    "tvdbId": 376472,
+    "year": "2020"
+  },
+  "tv|American Horror Story|": {
+    "imdbId": "tt1844624",
+    "title": "American Horror Story",
+    "tmdbId": 1413,
+    "tvdbId": 250487,
+    "year": "2011"
+  },
+  "tv|American Vandal|": {
+    "imdbId": "tt6877772",
+    "title": "American Vandal",
+    "tmdbId": 73126,
+    "tvdbId": 332828,
+    "year": "2017"
+  },
+  "tv|Andor|": {
+    "imdbId": "tt9253284",
+    "title": "Andor",
+    "tmdbId": 83867,
+    "tvdbId": 393189,
+    "year": "2022"
+  },
+  "tv|Animal Kingdom|": {
+    "imdbId": "tt5574490",
+    "title": "Animal Kingdom",
+    "tmdbId": 66025,
+    "tvdbId": 304262,
+    "year": "2016"
+  },
+  "tv|Anne with an E|": {
+    "imdbId": "tt5421602",
+    "title": "Anne with an E",
+    "tmdbId": 70785,
+    "tvdbId": 322971,
+    "year": "2017"
+  },
+  "tv|Archive 81|": {
+    "imdbId": "tt13365348",
+    "title": "Archive 81",
+    "tmdbId": 112314,
+    "tvdbId": 390936,
+    "year": "2022"
+  },
+  "tv|Band of Brothers|": {
+    "imdbId": "tt0185906",
+    "title": "Band of Brothers",
+    "tmdbId": 4613,
+    "tvdbId": 74205,
+    "year": "2001"
+  },
+  "tv|Barry|": {
+    "imdbId": "tt5348176",
+    "title": "Barry",
+    "tmdbId": 73107,
+    "tvdbId": 333072,
+    "year": "2018"
+  },
+  "tv|Battlestar Galactica (2004)|": {
+    "imdbId": "tt0407362",
+    "title": "Battlestar Galactica",
+    "tmdbId": 1972,
+    "tvdbId": 73545,
+    "year": "2004"
+  },
+  "tv|Beef|": {
+    "imdbId": "tt14403178",
+    "title": "BEEF",
+    "tmdbId": 154385,
+    "tvdbId": 399838,
+    "year": "2023"
+  },
+  "tv|Better Call Saul|": {
+    "imdbId": "tt3032476",
+    "title": "Better Call Saul",
+    "tmdbId": 60059,
+    "tvdbId": 273181,
+    "year": "2015"
+  },
+  "tv|Black Books|": {
+    "imdbId": "tt0262150",
+    "title": "Black Books",
+    "tmdbId": 903,
+    "tvdbId": 76924,
+    "year": "2000"
+  },
+  "tv|Black Mirror|": {
+    "imdbId": "tt2085059",
+    "title": "Black Mirror",
+    "tmdbId": 42009,
+    "tvdbId": 253463,
+    "year": "2011"
+  },
+  "tv|Black Sails|": {
+    "imdbId": "tt2375692",
+    "title": "Black Sails",
+    "tmdbId": 47665,
+    "tvdbId": 262407,
+    "year": "2014"
+  },
+  "tv|Boardwalk Empire|": {
+    "imdbId": "tt0979432",
+    "title": "Boardwalk Empire",
+    "tmdbId": 1621,
+    "tvdbId": 84947,
+    "year": "2010"
+  },
+  "tv|Bodies|": {
+    "imdbId": "tt18347622",
+    "title": "Bodies",
+    "tmdbId": 233629,
+    "tvdbId": 417257,
+    "year": "2023"
+  },
+  "tv|Bosch|": {
+    "imdbId": "tt3502248",
+    "title": "Bosch",
+    "tmdbId": 60585,
+    "tvdbId": 277928,
+    "year": "2015"
+  },
+  "tv|Breaking Bad|": {
+    "imdbId": "tt0903747",
+    "title": "Breaking Bad",
+    "tmdbId": 1396,
+    "tvdbId": 81189,
+    "year": "2008"
+  },
+  "tv|Brooklyn Nine-Nine|": {
+    "imdbId": "tt2467372",
+    "title": "Brooklyn Nine-Nine",
+    "tmdbId": 48891,
+    "tvdbId": 269586,
+    "year": "2013"
+  },
+  "tv|Buffy the Vampire Slayer|": {
+    "imdbId": "tt0118276",
+    "title": "Buffy the Vampire Slayer",
+    "tmdbId": 95,
+    "tvdbId": 70327,
+    "year": "1997"
+  },
+  "tv|Cabinet of Curiosities|": {
+    "imdbId": "tt8415836",
+    "title": "Guillermo del Toro's Cabinet of Curiosities",
+    "tmdbId": 83659,
+    "tvdbId": 409559,
+    "year": "2022"
+  },
+  "tv|Channel Zero|": {
+    "imdbId": "tt4820370",
+    "title": "Channel Zero",
+    "tmdbId": 67752,
+    "tvdbId": 315178,
+    "year": "2016"
+  },
+  "tv|Charmed|": {
+    "imdbId": "tt0158552",
+    "title": "Charmed",
+    "tmdbId": 1981,
+    "tvdbId": 70626,
+    "year": "1998"
+  },
+  "tv|Chernobyl|": {
+    "imdbId": "tt7366338",
+    "title": "Chernobyl",
+    "tmdbId": 87108,
+    "tvdbId": 360893,
+    "year": "2019"
+  },
+  "tv|Childhood\u2019s End|": {
+    "imdbId": "tt4146128",
+    "title": "Childhood's End",
+    "tmdbId": 63647,
+    "tvdbId": 296065,
+    "year": "2015"
+  },
+  "tv|Cobra Kai|": {
+    "imdbId": "tt7221388",
+    "title": "Cobra Kai",
+    "tmdbId": 77169,
+    "tvdbId": 332858,
+    "year": "2018"
+  },
+  "tv|Counterpart|": {
+    "imdbId": "tt4643084",
+    "title": "Counterpart",
+    "tmdbId": 63646,
+    "tvdbId": 337302,
+    "year": "2017"
+  },
+  "tv|Daredevil|": {
+    "imdbId": "tt18923754",
+    "title": "Daredevil: Born Again",
+    "tmdbId": 202555,
+    "tvdbId": 422712,
+    "year": "2025"
+  },
+  "tv|Dark Angel|": {
+    "imdbId": "tt0204993",
+    "title": "Dark Angel",
+    "tmdbId": 2407,
+    "tvdbId": 76148,
+    "year": "2000"
+  },
+  "tv|Dark|": {
+    "imdbId": "tt5753856",
+    "title": "Dark",
+    "tmdbId": 70523,
+    "tvdbId": 334824,
+    "year": "2017"
+  },
+  "tv|Dawson\u2019s Creek|": {
+    "imdbId": "tt0118300",
+    "title": "Dawson's Creek",
+    "tmdbId": 2327,
+    "tvdbId": 72584,
+    "year": "1998"
+  },
+  "tv|Deadwood|": {
+    "imdbId": "tt0348914",
+    "title": "Deadwood",
+    "tmdbId": 1406,
+    "tvdbId": 72023,
+    "year": "2004"
+  },
+  "tv|Devs|": {
+    "imdbId": "tt8134186",
+    "title": "Devs",
+    "tmdbId": 81349,
+    "tvdbId": 364149,
+    "year": "2020"
+  },
+  "tv|Dexter|": {
+    "imdbId": "tt0773262",
+    "title": "Dexter",
+    "tmdbId": 1405,
+    "tvdbId": 79349,
+    "year": "2006"
+  },
+  "tv|Doctor Who|": {
+    "imdbId": "tt0436992",
+    "title": "Doctor Who",
+    "tmdbId": 57243,
+    "tvdbId": 78804,
+    "year": "2005"
+  },
+  "tv|Doom Patrol|": {
+    "imdbId": "tt8416494",
+    "title": "Doom Patrol",
+    "tmdbId": 79501,
+    "tvdbId": 355622,
+    "year": "2019"
+  },
+  "tv|Eureka|": {
+    "imdbId": "tt0796264",
+    "title": "Eureka",
+    "tmdbId": 4620,
+    "tvdbId": 79334,
+    "year": "2006"
+  },
+  "tv|Fallout|": {
+    "imdbId": "tt12637874",
+    "title": "Fallout",
+    "tmdbId": 106379,
+    "tvdbId": 416744,
+    "year": "2024"
+  },
+  "tv|Fargo|": {
+    "imdbId": "tt2802850",
+    "title": "Fargo",
+    "tmdbId": 60622,
+    "tvdbId": 269613,
+    "year": "2014"
+  },
+  "tv|Felicity|": {
+    "imdbId": "tt0134247",
+    "title": "Felicity",
+    "tmdbId": 2822,
+    "tvdbId": 73980,
+    "year": "1998"
+  },
+  "tv|Firefly|": {
+    "imdbId": "tt0303461",
+    "title": "Firefly",
+    "tmdbId": 1437,
+    "tvdbId": 78874,
+    "year": "2002"
+  },
+  "tv|Flight of the Conchords|": {
+    "imdbId": "tt0863046",
+    "title": "Flight of the Conchords",
+    "tmdbId": 2742,
+    "tvdbId": 80252,
+    "year": "2007"
+  },
+  "tv|Freaks and Geeks|": {
+    "imdbId": "tt0193676",
+    "title": "Freaks and Geeks",
+    "tmdbId": 2382,
+    "tvdbId": 76321,
+    "year": "1999"
+  },
+  "tv|Fringe|": {
+    "imdbId": "tt1119644",
+    "title": "Fringe",
+    "tmdbId": 1705,
+    "tvdbId": 82066,
+    "year": "2008"
+  },
+  "tv|From|": {
+    "imdbId": "tt9813792",
+    "title": "FROM",
+    "tmdbId": 124364,
+    "tvdbId": 401003,
+    "year": "2022"
+  },
+  "tv|Game of Thrones|": {
+    "imdbId": "tt0944947",
+    "title": "Game of Thrones",
+    "tmdbId": 1399,
+    "tvdbId": 121361,
+    "year": "2011"
+  },
+  "tv|Gangs of London|": {
+    "imdbId": "tt7661390",
+    "title": "Gangs of London",
+    "tmdbId": 85021,
+    "tvdbId": 364387,
+    "year": "2020"
+  },
+  "tv|Gen V|": {
+    "imdbId": "tt13159924",
+    "title": "Gen V",
+    "tmdbId": 205715,
+    "tvdbId": 417909,
+    "year": "2023"
+  },
+  "tv|Gilmore Girls|": {
+    "imdbId": "tt0238784",
+    "title": "Gilmore Girls",
+    "tmdbId": 4586,
+    "tvdbId": 76568,
+    "year": "2000"
+  },
+  "tv|Gossip Girl|": {
+    "imdbId": "tt0397442",
+    "title": "Gossip Girl",
+    "tmdbId": 1395,
+    "tvdbId": 80547,
+    "year": "2007"
+  },
+  "tv|Greek|": {
+    "imdbId": "tt0976014",
+    "title": "Greek",
+    "tmdbId": 1242,
+    "tvdbId": 80301,
+    "year": "2007"
+  },
+  "tv|Hannibal|": {
+    "imdbId": "tt2243973",
+    "title": "Hannibal",
+    "tmdbId": 40008,
+    "tvdbId": 259063,
+    "year": "2013"
+  },
+  "tv|Harsh Realm|": {
+    "imdbId": "tt0182587",
+    "title": "Harsh Realm",
+    "tmdbId": 1936,
+    "tvdbId": 71768,
+    "year": "1999"
+  },
+  "tv|Hawaii Five-0|": {
+    "imdbId": "tt1600194",
+    "title": "Hawaii Five-0",
+    "tmdbId": 32798,
+    "tvdbId": 164541,
+    "year": "2010"
+  },
+  "tv|Hell on Wheels|": {
+    "imdbId": "tt1699748",
+    "title": "Hell on Wheels",
+    "tmdbId": 1401,
+    "tvdbId": 212961,
+    "year": "2011"
+  },
+  "tv|Heroes|": {
+    "imdbId": "tt0813715",
+    "title": "Heroes",
+    "tmdbId": 1639,
+    "tvdbId": 79501,
+    "year": "2006"
+  },
+  "tv|His Dark Materials|": {
+    "imdbId": "tt5607976",
+    "title": "His Dark Materials",
+    "tmdbId": 68507,
+    "tvdbId": 360295,
+    "year": "2019"
+  },
+  "tv|House M.D.|": {
+    "imdbId": "tt0412142",
+    "title": "House",
+    "tmdbId": 1408,
+    "tvdbId": 73255,
+    "year": "2004"
+  },
+  "tv|House of the Dragon|": {
+    "imdbId": "tt11198330",
+    "title": "House of the Dragon",
+    "tmdbId": 94997,
+    "tvdbId": 371572,
+    "year": "2022"
+  },
+  "tv|Invincible|": {
+    "imdbId": "tt6741278",
+    "title": "INVINCIBLE",
+    "tmdbId": 95557,
+    "tvdbId": 368207,
+    "year": "2021"
+  },
+  "tv|It\u2019s Always Sunny in Philadelphia|": {
+    "imdbId": "tt0472954",
+    "title": "It's Always Sunny in Philadelphia",
+    "tmdbId": 2710,
+    "tvdbId": 75805,
+    "year": "2005"
+  },
+  "tv|Jack Ryan|": {
+    "imdbId": "tt5057054",
+    "title": "Tom Clancy's Jack Ryan",
+    "tmdbId": 73375,
+    "tvdbId": 336261,
+    "year": "2018"
+  },
+  "tv|Jessica Jones|": {
+    "imdbId": "tt2357547",
+    "title": "Marvel's Jessica Jones",
+    "tmdbId": 38472,
+    "tvdbId": 284190,
+    "year": "2015"
+  },
+  "tv|John Doe|": {
+    "imdbId": "tt0320038",
+    "title": "John Doe",
+    "tmdbId": 689,
+    "tvdbId": 78839,
+    "year": "2002"
+  },
+  "tv|Journeyman|": {
+    "imdbId": "tt0948538",
+    "title": "Journeyman",
+    "tmdbId": 3184,
+    "tvdbId": 80494,
+    "year": "2007"
+  },
+  "tv|Kingdom|": {
+    "imdbId": "tt2404499",
+    "title": "Kingdom",
+    "tmdbId": 46437,
+    "tvdbId": 259635,
+    "year": "2012"
+  },
+  "tv|Kyle XY|": {
+    "imdbId": "tt0756509",
+    "title": "Kyle XY",
+    "tmdbId": 219,
+    "tvdbId": 76143,
+    "year": "2006"
+  },
+  "tv|Legion|": {
+    "imdbId": "tt5114356",
+    "title": "Legion",
+    "tmdbId": 67195,
+    "tvdbId": 320724,
+    "year": "2017"
+  },
+  "tv|Life Unexpected|": {
+    "imdbId": "tt1442109",
+    "title": "Life Unexpected",
+    "tmdbId": 20021,
+    "tvdbId": 95511,
+    "year": "2010"
+  },
+  "tv|Line of Duty|": {
+    "imdbId": "tt2303687",
+    "title": "Line of Duty",
+    "tmdbId": 43982,
+    "tvdbId": 260092,
+    "year": "2012"
+  },
+  "tv|Living with Yourself|": {
+    "imdbId": "tt8880894",
+    "title": "Living with Yourself",
+    "tmdbId": 81532,
+    "tvdbId": 368523,
+    "year": "2019"
+  },
+  "tv|Locke & Key|": {
+    "imdbId": "tt3007572",
+    "title": "Locke & Key",
+    "tmdbId": 86423,
+    "tvdbId": 361594,
+    "year": "2020"
+  },
+  "tv|Lost|": {
+    "imdbId": "tt0411008",
+    "title": "Lost",
+    "tmdbId": 4607,
+    "tvdbId": 73739,
+    "year": "2004"
+  },
+  "tv|Lovecraft Country|": {
+    "imdbId": "tt6905686",
+    "title": "Lovecraft Country",
+    "tmdbId": 82816,
+    "tvdbId": 357864,
+    "year": "2020"
+  },
+  "tv|Lucifer|": {
+    "imdbId": "tt4052886",
+    "title": "Lucifer",
+    "tmdbId": 63174,
+    "tvdbId": 295685,
+    "year": "2016"
+  },
+  "tv|Maniac|": {
+    "imdbId": "tt5580146",
+    "title": "Maniac",
+    "tmdbId": 73411,
+    "tvdbId": 350864,
+    "year": "2018"
+  },
+  "tv|Manifest|": {
+    "imdbId": "tt8421350",
+    "title": "Manifest",
+    "tmdbId": 79696,
+    "tvdbId": 349271,
+    "year": "2018"
+  },
+  "tv|Midnight Mass|": {
+    "imdbId": "tt10574558",
+    "title": "Midnight Mass",
+    "tmdbId": 97400,
+    "tvdbId": 367226,
+    "year": "2021"
+  },
+  "tv|Millennium|": {
+    "imdbId": "tt0115270",
+    "title": "Millennium",
+    "tmdbId": 4330,
+    "tvdbId": 70940,
+    "year": "1996"
+  },
+  "tv|Mindhunter|": {
+    "imdbId": "tt5290382",
+    "title": "MINDHUNTER",
+    "tmdbId": 67744,
+    "tvdbId": 328708,
+    "year": "2017"
+  },
+  "tv|Misfits|": {
+    "imdbId": "tt1548850",
+    "title": "Misfits",
+    "tmdbId": 31295,
+    "tvdbId": 124051,
+    "year": "2009"
+  },
+  "tv|Monk|": {
+    "imdbId": "tt0312172",
+    "title": "Monk",
+    "tmdbId": 1695,
+    "tvdbId": 78490,
+    "year": "2002"
+  },
+  "tv|Mr. Inbetween|": {
+    "imdbId": "tt7472896",
+    "title": "Mr Inbetween",
+    "tmdbId": 81358,
+    "tvdbId": 349743,
+    "year": "2018"
+  },
+  "tv|Mr. Robot|": {
+    "imdbId": "tt4158110",
+    "title": "Mr. Robot",
+    "tmdbId": 62560,
+    "tvdbId": 289590,
+    "year": "2015"
+  },
+  "tv|My So-Called Life|": {
+    "imdbId": "tt0108872",
+    "title": "My So-Called Life",
+    "tmdbId": 1101,
+    "tvdbId": 78644,
+    "year": "1994"
+  },
+  "tv|Narcos|": {
+    "imdbId": "tt2707408",
+    "title": "Narcos",
+    "tmdbId": 63351,
+    "tvdbId": 282670,
+    "year": "2015"
+  },
+  "tv|Nip/Tuck|": {
+    "imdbId": "tt0361217",
+    "title": "Nip/Tuck",
+    "tmdbId": 3750,
+    "tvdbId": 72201,
+    "year": "2003"
+  },
+  "tv|One Tree Hill|": {
+    "imdbId": "tt0368530",
+    "title": "One Tree Hill",
+    "tmdbId": 269,
+    "tvdbId": 72158,
+    "year": "2003"
+  },
+  "tv|Orphan Black|": {
+    "imdbId": "tt2234222",
+    "title": "Orphan Black",
+    "tmdbId": 56296,
+    "tvdbId": 260315,
+    "year": "2013"
+  },
+  "tv|Ozark|": {
+    "imdbId": "tt5071412",
+    "title": "Ozark",
+    "tmdbId": 69740,
+    "tvdbId": 329089,
+    "year": "2017"
+  },
+  "tv|Oz|": {
+    "imdbId": "tt0118421",
+    "title": "Oz",
+    "tmdbId": 3322,
+    "tvdbId": 70682,
+    "year": "1997"
+  },
+  "tv|Parks and Recreation|": {
+    "imdbId": "tt1266020",
+    "title": "Parks and Recreation",
+    "tmdbId": 8592,
+    "tvdbId": 84912,
+    "year": "2009"
+  },
+  "tv|Patriot|": {
+    "imdbId": "tt4687882",
+    "title": "Patriot",
+    "tmdbId": 64396,
+    "tvdbId": 323267,
+    "year": "2015"
+  },
+  "tv|Peacemaker|": {
+    "imdbId": "tt13146488",
+    "title": "Peacemaker",
+    "tmdbId": 110492,
+    "tvdbId": 391153,
+    "year": "2022"
+  },
+  "tv|Peaky Blinders|": {
+    "imdbId": "tt2442560",
+    "title": "Peaky Blinders",
+    "tmdbId": 60574,
+    "tvdbId": 270915,
+    "year": "2013"
+  },
+  "tv|Penny Dreadful|": {
+    "imdbId": "tt2628232",
+    "title": "Penny Dreadful",
+    "tmdbId": 54671,
+    "tvdbId": 265766,
+    "year": "2014"
+  },
+  "tv|Picard|": {
+    "imdbId": "tt8806524",
+    "title": "Star Trek: Picard",
+    "tmdbId": 85949,
+    "tvdbId": 364093,
+    "year": "2020"
+  },
+  "tv|Pretty Little Liars|": {
+    "imdbId": "tt1578873",
+    "title": "Pretty Little Liars",
+    "tmdbId": 31917,
+    "tvdbId": 146711,
+    "year": "2010"
+  },
+  "tv|Psych|": {
+    "imdbId": "tt0491738",
+    "title": "Psych",
+    "tmdbId": 1447,
+    "tvdbId": 79335,
+    "year": "2006"
+  },
+  "tv|Pushing Daisies|": {
+    "imdbId": "tt0925266",
+    "title": "Pushing Daisies",
+    "tmdbId": 5639,
+    "tvdbId": 80351,
+    "year": "2007"
+  },
+  "tv|Reaper|": {
+    "imdbId": "tt0955322",
+    "title": "Reaper",
+    "tmdbId": 5107,
+    "tvdbId": 80345,
+    "year": "2007"
+  },
+  "tv|Ripper Street|": {
+    "imdbId": "tt2183641",
+    "title": "Ripper Street",
+    "tmdbId": 46930,
+    "tvdbId": 260485,
+    "year": "2012"
+  },
+  "tv|Rome|": {
+    "imdbId": "tt0384766",
+    "title": "Rome",
+    "tmdbId": 1891,
+    "tvdbId": 73508,
+    "year": "2005"
+  },
+  "tv|Roswell|": {
+    "imdbId": "tt0201391",
+    "title": "Roswell",
+    "tmdbId": 4624,
+    "tvdbId": 73965,
+    "year": "1999"
+  },
+  "tv|Russian Doll|": {
+    "imdbId": "tt7520794",
+    "title": "Russian Doll",
+    "tmdbId": 84977,
+    "tvdbId": 356640,
+    "year": "2019"
+  },
+  "tv|Scandal|": {
+    "imdbId": "tt1837576",
+    "title": "Scandal",
+    "tmdbId": 39269,
+    "tvdbId": 248841,
+    "year": "2012"
+  },
+  "tv|Severance|": {
+    "imdbId": "tt11280740",
+    "title": "Severance",
+    "tmdbId": 95396,
+    "tvdbId": 371980,
+    "year": "2022"
+  },
+  "tv|Sex Education|": {
+    "imdbId": "tt7767422",
+    "title": "Sex Education",
+    "tmdbId": 81356,
+    "tvdbId": 356317,
+    "year": "2019"
+  },
+  "tv|Silo|": {
+    "imdbId": "tt14688458",
+    "title": "Silo",
+    "tmdbId": 125988,
+    "tvdbId": 403245,
+    "year": "2023"
+  },
+  "tv|Slow Horses|": {
+    "imdbId": "tt5875444",
+    "title": "Slow Horses",
+    "tmdbId": 95480,
+    "tvdbId": 372264,
+    "year": "2022"
+  },
+  "tv|Smallville|": {
+    "imdbId": "tt0279600",
+    "title": "Smallville",
+    "tmdbId": 4604,
+    "tvdbId": 72218,
+    "year": "2001"
+  },
+  "tv|Snowfall|": {
+    "imdbId": "tt6439752",
+    "title": "Snowfall",
+    "tmdbId": 71694,
+    "tvdbId": 328092,
+    "year": "2017"
+  },
+  "tv|Southland|": {
+    "imdbId": "tt1299368",
+    "title": "Southland",
+    "tmdbId": 17611,
+    "tvdbId": 84645,
+    "year": "2009"
+  },
+  "tv|Star Trek: Discovery|": {
+    "imdbId": "tt5171438",
+    "title": "Star Trek: Discovery",
+    "tmdbId": 67198,
+    "tvdbId": 328711,
+    "year": "2017"
+  },
+  "tv|Star Trek: Strange New Worlds|": {
+    "imdbId": "tt12327578",
+    "title": "Star Trek: Strange New Worlds",
+    "tmdbId": 103516,
+    "tvdbId": 382389,
+    "year": "2022"
+  },
+  "tv|Star Trek: The Next Generation|": {
+    "imdbId": "tt0092455",
+    "title": "Star Trek: The Next Generation",
+    "tmdbId": 655,
+    "tvdbId": 71470,
+    "year": "1987"
+  },
+  "tv|Station Eleven|": {
+    "imdbId": "tt10574236",
+    "title": "Station Eleven",
+    "tmdbId": 90972,
+    "tvdbId": 366529,
+    "year": "2021"
+  },
+  "tv|Stranger Things|": {
+    "imdbId": "tt4574334",
+    "title": "Stranger Things",
+    "tmdbId": 66732,
+    "tvdbId": 305288,
+    "year": "2016"
+  },
+  "tv|Succession|": {
+    "imdbId": "tt7660850",
+    "title": "Succession",
+    "tmdbId": 76331,
+    "tvdbId": 338186,
+    "year": "2018"
+  },
+  "tv|Supernatural|": {
+    "imdbId": "tt0460681",
+    "title": "Supernatural",
+    "tmdbId": 1622,
+    "tvdbId": 78901,
+    "year": "2005"
+  },
+  "tv|Sweet Tooth|": {
+    "imdbId": "tt12809988",
+    "title": "Sweet Tooth",
+    "tmdbId": 103768,
+    "tvdbId": 355837,
+    "year": "2021"
+  },
+  "tv|Switched at Birth|": {
+    "imdbId": "tt1758772",
+    "title": "Switched at Birth",
+    "tmdbId": 37632,
+    "tvdbId": 473979,
+    "year": "2011"
+  },
+  "tv|Ted|": {
+    "imdbId": "tt14824792",
+    "title": "ted",
+    "tmdbId": 201834,
+    "tvdbId": 404604,
+    "year": "2024"
+  },
+  "tv|The 100|2014": {
+    "imdbId": "tt2661044",
+    "title": "The 100",
+    "tmdbId": 48866,
+    "tvdbId": 268592,
+    "year": "2014"
+  },
+  "tv|The 4400|": {
+    "imdbId": "tt0389564",
+    "title": "The 4400",
+    "tmdbId": 1481,
+    "tvdbId": 73507,
+    "year": "2004"
+  },
+  "tv|The Americans|": {
+    "imdbId": "tt2149175",
+    "title": "The Americans",
+    "tmdbId": 46533,
+    "tvdbId": 261690,
+    "year": "2013"
+  },
+  "tv|The Bear|": {
+    "imdbId": "tt14452776",
+    "title": "The Bear",
+    "tmdbId": 136315,
+    "tvdbId": 403294,
+    "year": "2022"
+  },
+  "tv|The Blacklist|": {
+    "imdbId": "tt2741602",
+    "title": "The Blacklist",
+    "tmdbId": 46952,
+    "tvdbId": 266189,
+    "year": "2013"
+  },
+  "tv|The Boys|": {
+    "imdbId": "tt1190634",
+    "title": "The Boys",
+    "tmdbId": 76479,
+    "tvdbId": 355567,
+    "year": "2019"
+  },
+  "tv|The Dark Crystal: Age of Resistance|": {
+    "imdbId": "tt6905542",
+    "title": "The Dark Crystal: Age of Resistance",
+    "tmdbId": 71809,
+    "tvdbId": 361549,
+    "year": "2019"
+  },
+  "tv|The Devil\u2019s Hour|": {
+    "imdbId": "tt14379784",
+    "title": "The Devil's Hour",
+    "tmdbId": 157061,
+    "tvdbId": 397807,
+    "year": "2022"
+  },
+  "tv|The Expanse|": {
+    "imdbId": "tt3230854",
+    "title": "The Expanse",
+    "tmdbId": 63639,
+    "tvdbId": 280619,
+    "year": "2015"
+  },
+  "tv|The Fall of the House of Usher|": {
+    "imdbId": "tt15567174",
+    "title": "The Fall of the House of Usher",
+    "tmdbId": 157065,
+    "tvdbId": 411021,
+    "year": "2023"
+  },
+  "tv|The Fall|": {
+    "imdbId": "tt2294189",
+    "title": "The Fall",
+    "tmdbId": 49010,
+    "tvdbId": 258107,
+    "year": "2013"
+  },
+  "tv|The Fosters|": {
+    "imdbId": "tt2262532",
+    "title": "The Fosters",
+    "tmdbId": 46880,
+    "tvdbId": 267907,
+    "year": "2013"
+  },
+  "tv|The Haunting of Bly Manor|": {
+    "imdbId": "tt10970552",
+    "title": "The Haunting of Bly Manor",
+    "tmdbId": 109958,
+    "tvdbId": null,
+    "year": "2020"
+  },
+  "tv|The Haunting of Hill House|": {
+    "imdbId": "tt6763664",
+    "title": "The Haunting of Hill House",
+    "tmdbId": 72844,
+    "tvdbId": null,
+    "year": "2018"
+  },
+  "tv|The I-Land|": {
+    "imdbId": "tt9067020",
+    "title": "The I-Land",
+    "tmdbId": 90755,
+    "tvdbId": 368387,
+    "year": "2019"
+  },
+  "tv|The Invisible Man|": {
+    "imdbId": "tt0220238",
+    "title": "The Invisible Man",
+    "tmdbId": 4735,
+    "tvdbId": 74460,
+    "year": "2000"
+  },
+  "tv|The Last Kingdom|": {
+    "imdbId": "tt4179452",
+    "title": "The Last Kingdom",
+    "tmdbId": 63333,
+    "tvdbId": 298566,
+    "year": "2015"
+  },
+  "tv|The Last of Us|": {
+    "imdbId": "tt3581920",
+    "title": "The Last of Us",
+    "tmdbId": 100088,
+    "tvdbId": 392256,
+    "year": "2023"
+  },
+  "tv|The Lazarus Project|": {
+    "imdbId": "tt14190592",
+    "title": "The Lazarus Project",
+    "tmdbId": 194567,
+    "tvdbId": 400440,
+    "year": "2022"
+  },
+  "tv|The Leftovers|": {
+    "imdbId": "tt2699128",
+    "title": "The Leftovers",
+    "tmdbId": 54344,
+    "tvdbId": 269689,
+    "year": "2014"
+  },
+  "tv|The Lost Room|": {
+    "imdbId": "tt0830361",
+    "title": "The Lost Room",
+    "tmdbId": 3868,
+    "tvdbId": 79637,
+    "year": "2006"
+  },
+  "tv|The Magicians|": {
+    "imdbId": "tt4254242",
+    "title": "The Magicians",
+    "tmdbId": 64432,
+    "tvdbId": 299139,
+    "year": "2015"
+  },
+  "tv|The Midnight Club|": {
+    "imdbId": "tt13444912",
+    "title": "The Midnight Club",
+    "tmdbId": 126254,
+    "tvdbId": 381909,
+    "year": "2022"
+  },
+  "tv|The Morning Show|": {
+    "imdbId": "tt7203552",
+    "title": "The Morning Show",
+    "tmdbId": 90282,
+    "tvdbId": 361563,
+    "year": "2019"
+  },
+  "tv|The Night Agent|": {
+    "imdbId": "tt13918776",
+    "title": "The Night Agent",
+    "tmdbId": 129552,
+    "tvdbId": 407281,
+    "year": "2023"
+  },
+  "tv|The Night Of|": {
+    "imdbId": "tt2401256",
+    "title": "The Night Of",
+    "tmdbId": 66276,
+    "tvdbId": 310516,
+    "year": "2016"
+  },
+  "tv|The OA|": {
+    "imdbId": "tt4635282",
+    "title": "The OA",
+    "tmdbId": 69061,
+    "tvdbId": 321060,
+    "year": "2016"
+  },
+  "tv|The OC|": {
+    "imdbId": "tt0362359",
+    "title": "The O.C.",
+    "tmdbId": 2673,
+    "tvdbId": 72164,
+    "year": "2003"
+  },
+  "tv|The Office (U.S.)|": {
+    "imdbId": "tt0386676",
+    "title": "The Office",
+    "tmdbId": 2316,
+    "tvdbId": 73244,
+    "year": "2005"
+  },
+  "tv|The Outsider|": {
+    "imdbId": "tt8550800",
+    "title": "The Outsider",
+    "tmdbId": 84661,
+    "tvdbId": 365480,
+    "year": "2020"
+  },
+  "tv|The Pacific|": {
+    "imdbId": "tt0374463",
+    "title": "The Pacific",
+    "tmdbId": 16997,
+    "tvdbId": 85539,
+    "year": "2010"
+  },
+  "tv|The Plot Against America|": {
+    "imdbId": "tt9308346",
+    "title": "The Plot Against America",
+    "tmdbId": 83870,
+    "tvdbId": 367559,
+    "year": "2020"
+  },
+  "tv|The Punisher|": {
+    "imdbId": null,
+    "title": "The Punisher",
+    "tmdbId": 278177,
+    "tvdbId": null,
+    "year": ""
+  },
+  "tv|The Queen\u2019s Gambit|": {
+    "imdbId": "tt10048342",
+    "title": "The Queen's Gambit",
+    "tmdbId": 87739,
+    "tvdbId": 387115,
+    "year": "2020"
+  },
+  "tv|The Rig|": {
+    "imdbId": "tt14273790",
+    "title": "The Rig",
+    "tmdbId": 112581,
+    "tvdbId": 399194,
+    "year": "2023"
+  },
+  "tv|The Shield|": {
+    "imdbId": "tt0286486",
+    "title": "The Shield",
+    "tmdbId": 1414,
+    "tvdbId": 78261,
+    "year": "2002"
+  },
+  "tv|The Sinner|": {
+    "imdbId": "tt6048596",
+    "title": "The Sinner",
+    "tmdbId": 39852,
+    "tvdbId": 326866,
+    "year": "2017"
+  },
+  "tv|The Sopranos|": {
+    "imdbId": "tt0141842",
+    "title": "The Sopranos",
+    "tmdbId": 1398,
+    "tvdbId": 75299,
+    "year": "1999"
+  },
+  "tv|The Terror|": {
+    "imdbId": "tt2708480",
+    "title": "The Terror",
+    "tmdbId": 75191,
+    "tvdbId": 322191,
+    "year": "2018"
+  },
+  "tv|The Tourist|": {
+    "imdbId": "tt11847842",
+    "title": "The Tourist",
+    "tmdbId": 120909,
+    "tvdbId": 395919,
+    "year": "2022"
+  },
+  "tv|The Umbrella Academy|": {
+    "imdbId": "tt1312171",
+    "title": "The Umbrella Academy",
+    "tmdbId": 75006,
+    "tvdbId": 353764,
+    "year": "2019"
+  },
+  "tv|The Vampire Diaries|": {
+    "imdbId": "tt1405406",
+    "title": "The Vampire Diaries",
+    "tmdbId": 18165,
+    "tvdbId": 95491,
+    "year": "2009"
+  },
+  "tv|The Walking Dead|": {
+    "imdbId": "tt1520211",
+    "title": "The Walking Dead",
+    "tmdbId": 1402,
+    "tvdbId": 153021,
+    "year": "2010"
+  },
+  "tv|The Wilds|": {
+    "imdbId": "tt8633062",
+    "title": "The Wilds",
+    "tmdbId": 113367,
+    "tvdbId": 349826,
+    "year": "2020"
+  },
+  "tv|The Wire|": {
+    "imdbId": "tt0306414",
+    "title": "The Wire",
+    "tmdbId": 1438,
+    "tvdbId": 79126,
+    "year": "2002"
+  },
+  "tv|The Witcher|": {
+    "imdbId": "tt5180504",
+    "title": "The Witcher",
+    "tmdbId": 71912,
+    "tvdbId": 362696,
+    "year": "2019"
+  },
+  "tv|The X-Files|": {
+    "imdbId": "tt0106179",
+    "title": "The X-Files",
+    "tmdbId": 4087,
+    "tvdbId": 77398,
+    "year": "1993"
+  },
+  "tv|Top Boy|": {
+    "imdbId": "",
+    "title": "Top Boy",
+    "tmdbId": 93544,
+    "tvdbId": null,
+    "year": "2019"
+  },
+  "tv|Travelers|": {
+    "imdbId": "tt5651844",
+    "title": "Travelers",
+    "tmdbId": 67683,
+    "tvdbId": 314544,
+    "year": "2016"
+  },
+  "tv|True Detective|": {
+    "imdbId": "tt2356777",
+    "title": "True Detective",
+    "tmdbId": 46648,
+    "tvdbId": 270633,
+    "year": "2014"
+  },
+  "tv|Tulsa King|": {
+    "imdbId": "tt16358384",
+    "title": "Tulsa King",
+    "tmdbId": 153312,
+    "tvdbId": 413215,
+    "year": "2022"
+  },
+  "tv|Turn: Washington\u2019s Spies|": {
+    "imdbId": "tt2543328",
+    "title": "TURN: Washington's Spies",
+    "tmdbId": 57276,
+    "tvdbId": 272135,
+    "year": "2014"
+  },
+  "tv|Unbreakable Kimmy Schmidt|": {
+    "imdbId": "tt3339966",
+    "title": "Unbreakable Kimmy Schmidt",
+    "tmdbId": 61671,
+    "tvdbId": 281593,
+    "year": "2015"
+  },
+  "tv|Utopia (US)|": {
+    "imdbId": "tt3703500",
+    "title": "Utopia",
+    "tmdbId": 61298,
+    "tvdbId": 282654,
+    "year": "2014"
+  },
+  "tv|Vikings|": {
+    "imdbId": "tt2306299",
+    "title": "Vikings",
+    "tmdbId": 44217,
+    "tvdbId": 260449,
+    "year": "2013"
+  },
+  "tv|Warehouse 13|": {
+    "imdbId": "tt1132290",
+    "title": "Warehouse 13",
+    "tmdbId": 15819,
+    "tvdbId": 84676,
+    "year": "2009"
+  },
+  "tv|Warrior|": {
+    "imdbId": "tt5743796",
+    "title": "Warrior",
+    "tmdbId": 73544,
+    "tvdbId": 359326,
+    "year": "2019"
+  },
+  "tv|Watchmen|": {
+    "imdbId": "tt7049682",
+    "title": "Watchmen",
+    "tmdbId": 79788,
+    "tvdbId": 360733,
+    "year": "2019"
+  },
+  "tv|Wayward Pines|": {
+    "imdbId": "tt2618986",
+    "title": "Wayward Pines",
+    "tmdbId": 53425,
+    "tvdbId": 269750,
+    "year": "2015"
+  },
+  "tv|Westworld|": {
+    "imdbId": "tt0475784",
+    "title": "Westworld",
+    "tmdbId": 63247,
+    "tvdbId": 296762,
+    "year": "2016"
+  },
+  "tv|White Collar|": {
+    "imdbId": "tt1358522",
+    "title": "White Collar",
+    "tmdbId": 21510,
+    "tvdbId": 108611,
+    "year": "2009"
+  },
+  "tv|Wonderfalls|": {
+    "imdbId": "tt0361256",
+    "title": "Wonderfalls",
+    "tmdbId": 1982,
+    "tvdbId": 78845,
+    "year": "2004"
+  },
+  "tv|Yellowjackets|": {
+    "imdbId": "tt11041332",
+    "title": "Yellowjackets",
+    "tmdbId": 117488,
+    "tvdbId": 399731,
+    "year": "2021"
+  },
+  "tv|Yellowstone|": {
+    "imdbId": "tt4236770",
+    "title": "Yellowstone",
+    "tmdbId": 73586,
+    "tvdbId": 341164,
+    "year": "2018"
+  },
+  "tv|You|": {
+    "imdbId": "tt7335184",
+    "title": "You",
+    "tmdbId": 78191,
+    "tvdbId": 336924,
+    "year": "2018"
+  },
+  "tv|ZeroZeroZero|": {
+    "imdbId": "tt8332438",
+    "title": "ZeroZeroZero",
+    "tmdbId": 92137,
+    "tvdbId": 369071,
+    "year": "2020"
+  }
+}
